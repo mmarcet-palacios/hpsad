@@ -71,4 +71,4 @@ The paper's runs used Windows 11, 24 CPU threads and an NVIDIA GPU (CuPy). The C
 
 Code: MIT (see `LICENSE`). Data tables: CC BY 4.0. Please cite the article and the archived release (`CITATION.cff`).
 
-Archive DOI: *to be added on release.*
+Archive DOI: [10.5281/zenodo.23441932](https://doi.org/10.5281/zenodo.23441932) (includes the promoter sequence tables)

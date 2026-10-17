@@ -7,6 +7,7 @@ authors:
     affiliation: "Department of Medicine, University of Alberta, Edmonton, Alberta, Canada"
     email: marcelo@ualberta.ca
 version: 1.0.0
+doi: 10.5281/zenodo.23441932
 date-released: 2026-10-17
 license: MIT
 repository-code: "https://github.com/mmarcet-palacios/hpsad"
