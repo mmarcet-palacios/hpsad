@@ -1,0 +1,1969 @@
+{
+ "C1 Pol II": {
+  "n_pass": 46,
+  "elements": {
+   "TATA box": [
+    {
+     "pos": -29,
+     "n": 1110,
+     "ratio": 6.61,
+     "cons": "WWWAAARN",
+     "score": 300.0
+    },
+    {
+     "pos": -31,
+     "n": 1180,
+     "ratio": 4.09,
+     "cons": "YATAAA",
+     "score": 300.0
+    }
+   ],
+   "5' splice donor": [
+    {
+     "pos": 69,
+     "n": 689,
+     "ratio": 5.13,
+     "cons": "NGGTAAG",
+     "score": 231.6
+    },
+    {
+     "pos": 59,
+     "n": 781,
+     "ratio": 3.09,
+     "cons": "GGTGAG",
+     "score": 149.6
+    },
+    {
+     "pos": 65,
+     "n": 237,
+     "ratio": 3.31,
+     "cons": "AAGGTA",
+     "score": 50.4
+    },
+    {
+     "pos": 69,
+     "n": 246,
+     "ratio": 2.96,
+     "cons": "CAGGTANS",
+     "score": 45.3
+    },
+    {
+     "pos": 67,
+     "n": 51,
+     "ratio": 6.98,
+     "cons": "ANNWGTGAGTANNNN",
+     "score": 24.2
+    },
+    {
+     "pos": 68,
+     "n": 22,
+     "ratio": 27.26,
+     "cons": "MMMMAGTAAGTAYN",
+     "score": 22.6
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 1999,
+     "ratio": 9.95,
+     "cons": "SNCAGWS",
+     "score": 300.0
+    },
+    {
+     "pos": -4,
+     "n": 692,
+     "ratio": 4.5,
+     "cons": "YNYCATTYY",
+     "score": 204.0
+    },
+    {
+     "pos": -2,
+     "n": 691,
+     "ratio": 4.43,
+     "cons": "NCAGM",
+     "score": 200.2
+    },
+    {
+     "pos": -3,
+     "n": 351,
+     "ratio": 5.88,
+     "cons": "NACAGW",
+     "score": 137.4
+    },
+    {
+     "pos": -2,
+     "n": 436,
+     "ratio": 3.3,
+     "cons": "YTAGWSNNSS",
+     "score": 89.1
+    },
+    {
+     "pos": -8,
+     "n": 342,
+     "ratio": 3.21,
+     "cons": "NNNNCYCTGN",
+     "score": 64.1
+    },
+    {
+     "pos": -6,
+     "n": 271,
+     "ratio": 2.72,
+     "cons": "SNRGSTG",
+     "score": 42.4
+    }
+   ],
+   "YY1": [
+    {
+     "pos": 16,
+     "n": 1756,
+     "ratio": 1.84,
+     "cons": "SGMSRYGGCGGCSG",
+     "score": 168.8
+    },
+    {
+     "pos": -11,
+     "n": 49,
+     "ratio": 13.04,
+     "cons": "SCSGCCGCCATNTTG",
+     "score": 33.2
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -31,
+     "n": 520,
+     "ratio": 2.44,
+     "cons": "SNSCCGGAAGYGSSS",
+     "score": 68.6
+    },
+    {
+     "pos": -26,
+     "n": 401,
+     "ratio": 3.42,
+     "cons": "NNRCTTCCGG",
+     "score": 86.4
+    },
+    {
+     "pos": -53,
+     "n": 273,
+     "ratio": 2.99,
+     "cons": "SACTTCCKSY",
+     "score": 48.4
+    },
+    {
+     "pos": -56,
+     "n": 131,
+     "ratio": 4.01,
+     "cons": "SAGGAAGT",
+     "score": 35.1
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -75,
+     "n": 390,
+     "ratio": 7.17,
+     "cons": "RGCCAATSRG",
+     "score": 184.0
+    },
+    {
+     "pos": -80,
+     "n": 244,
+     "ratio": 12.1,
+     "cons": "NCYGATTGGCYS",
+     "score": 163.2
+    },
+    {
+     "pos": -72,
+     "n": 164,
+     "ratio": 10.63,
+     "cons": "CNSTGATTGGYYR",
+     "score": 98.2
+    },
+    {
+     "pos": -70,
+     "n": 83,
+     "ratio": 31.11,
+     "cons": "CKGACCAATCAGM",
+     "score": 65.4
+    },
+    {
+     "pos": -76,
+     "n": 95,
+     "ratio": 9.35,
+     "cons": "NACCAATSRS",
+     "score": 50.5
+    },
+    {
+     "pos": -104,
+     "n": 355,
+     "ratio": 3.12,
+     "cons": "SYSATTGGCY",
+     "score": 68.3
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -67,
+     "n": 1321,
+     "ratio": 2.03,
+     "cons": "SNSGGGGCGGGGCS",
+     "score": 144.7
+    },
+    {
+     "pos": -65,
+     "n": 1819,
+     "ratio": 1.79,
+     "cons": "SGCCCCGCCCCSNS",
+     "score": 166.3
+    },
+    {
+     "pos": -5,
+     "n": 122,
+     "ratio": 3.96,
+     "cons": "SSGGCGCAGNCSSS",
+     "score": 33.4
+    },
+    {
+     "pos": -7,
+     "n": 309,
+     "ratio": 2.56,
+     "cons": "SSSSSCYGWGNSNS",
+     "score": 44.5
+    },
+    {
+     "pos": -22,
+     "n": 762,
+     "ratio": 1.55,
+     "cons": "GGSSSSGCGCSGSS",
+     "score": 46.9
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -51,
+     "n": 340,
+     "ratio": 7.89,
+     "cons": "RTGACGTCAN",
+     "score": 164.2
+    },
+    {
+     "pos": -53,
+     "n": 125,
+     "ratio": 5.18,
+     "cons": "SSSSGTCACGTGRCSS",
+     "score": 46.7
+    }
+   ],
+   "Start codon context": [
+    {
+     "pos": 49,
+     "n": 287,
+     "ratio": 3.01,
+     "cons": "SSSSSGCCATGGCSS",
+     "score": 52.3
+    },
+    {
+     "pos": 50,
+     "n": 136,
+     "ratio": 5.89,
+     "cons": "CACCATGNSY",
+     "score": 44.6
+    },
+    {
+     "pos": 30,
+     "n": 227,
+     "ratio": 2.62,
+     "cons": "CATGGCNNNN",
+     "score": 33.7
+    }
+   ],
+   "lncRNA CRE-like": [
+    {
+     "pos": -68,
+     "n": 227,
+     "ratio": 2.94,
+     "cons": "CWTTGTGAYNY",
+     "score": 39.2
+    },
+    {
+     "pos": -60,
+     "n": 249,
+     "ratio": 2.63,
+     "cons": "RNRTCACAATGN",
+     "score": 36.6
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": -39,
+    "n": 458,
+    "ratio": 2.45,
+    "cons": "SNSNGCGCNNGCGC"
+   },
+   {
+    "zone": "core",
+    "pos": -4,
+    "n": 122,
+    "ratio": 5.57,
+    "cons": "SNKCCTCTTYCNS"
+   },
+   {
+    "zone": "core",
+    "pos": 38,
+    "n": 244,
+    "ratio": 2.71,
+    "cons": "NTGAAGANNN"
+   },
+   {
+    "zone": "core",
+    "pos": 61,
+    "n": 476,
+    "ratio": 1.75,
+    "cons": "CTTCTC"
+   },
+   {
+    "zone": "core",
+    "pos": 47,
+    "n": 807,
+    "ratio": 1.51,
+    "cons": "GSNGCTGCTGSNSS"
+   },
+   {
+    "zone": "core",
+    "pos": 11,
+    "n": 102,
+    "ratio": 3.37,
+    "cons": "SCGCCGCYGCCGSC"
+   },
+   {
+    "zone": "distal",
+    "pos": -1507,
+    "n": 23,
+    "ratio": 26.99,
+    "cons": "WYWAAGTATTAMNTW"
+   }
+  ]
+ },
+ "C1 coding": {
+  "n_pass": 44,
+  "elements": {
+   "TATA box": [
+    {
+     "pos": -29,
+     "n": 1004,
+     "ratio": 9.65,
+     "cons": "WWWAAARN",
+     "score": 300.0
+    },
+    {
+     "pos": -30,
+     "n": 1241,
+     "ratio": 3.42,
+     "cons": "WTAAA",
+     "score": 300.0
+    }
+   ],
+   "5' splice donor": [
+    {
+     "pos": 61,
+     "n": 507,
+     "ratio": 3.7,
+     "cons": "SSRGGTGAGNGSS",
+     "score": 124.4
+    },
+    {
+     "pos": 57,
+     "n": 196,
+     "ratio": 5.36,
+     "cons": "MAGGTAAG",
+     "score": 69.4
+    },
+    {
+     "pos": 53,
+     "n": 271,
+     "ratio": 3.7,
+     "cons": "GGTGAGT",
+     "score": 61.6
+    },
+    {
+     "pos": 59,
+     "n": 87,
+     "ratio": 5.44,
+     "cons": "MAGGTACNNNS",
+     "score": 33.3
+    },
+    {
+     "pos": 65,
+     "n": 60,
+     "ratio": 5.41,
+     "cons": "GGGTAAG",
+     "score": 22.9
+    },
+    {
+     "pos": 49,
+     "n": 67,
+     "ratio": 4.95,
+     "cons": "CAGGTAA",
+     "score": 24.0
+    },
+    {
+     "pos": 66,
+     "n": 42,
+     "ratio": 11.09,
+     "cons": "RSNCGGTAAR",
+     "score": 27.3
+    }
+   ],
+   "YY1": [
+    {
+     "pos": 16,
+     "n": 529,
+     "ratio": 6.61,
+     "cons": "SAAGATGGCGGCSG",
+     "score": 246.7
+    },
+    {
+     "pos": -6,
+     "n": 75,
+     "ratio": 13.57,
+     "cons": "GCCGCCATYTTGKNK",
+     "score": 50.1
+    },
+    {
+     "pos": 19,
+     "n": 54,
+     "ratio": 10.03,
+     "cons": "GGSAAGATGGMG",
+     "score": 33.4
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -75,
+     "n": 229,
+     "ratio": 25.14,
+     "cons": "NSRGCCAATSRGN",
+     "score": 213.0
+    },
+    {
+     "pos": -80,
+     "n": 651,
+     "ratio": 4.24,
+     "cons": "SYGATTGGCYS",
+     "score": 191.1
+    },
+    {
+     "pos": -76,
+     "n": 205,
+     "ratio": 7.53,
+     "cons": "NNCCAATCASNR",
+     "score": 76.1
+    },
+    {
+     "pos": -65,
+     "n": 154,
+     "ratio": 4.1,
+     "cons": "RNCCAATGRNNR",
+     "score": 41.8
+    },
+    {
+     "pos": -52,
+     "n": 61,
+     "ratio": 11.13,
+     "cons": "YKCYGATTGGCYSSNS",
+     "score": 37.9
+    },
+    {
+     "pos": -110,
+     "n": 85,
+     "ratio": 5.42,
+     "cons": "SSRGCCAATGGGNRS",
+     "score": 30.9
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -24,
+     "n": 287,
+     "ratio": 6.47,
+     "cons": "CCGGAAGYNN",
+     "score": 126.3
+    },
+    {
+     "pos": -24,
+     "n": 295,
+     "ratio": 3.68,
+     "cons": "SNNCTTCCGGN",
+     "score": 70.9
+    },
+    {
+     "pos": -29,
+     "n": 299,
+     "ratio": 2.27,
+     "cons": "SRCTTCCTSYY",
+     "score": 32.9
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 1613,
+     "ratio": 10.63,
+     "cons": "SNCAGWSNSNS",
+     "score": 300.0
+    },
+    {
+     "pos": -1,
+     "n": 437,
+     "ratio": 3.46,
+     "cons": "CAGAAGNNNS",
+     "score": 96.0
+    },
+    {
+     "pos": -4,
+     "n": 458,
+     "ratio": 5.26,
+     "cons": "YNYCMTYYY",
+     "score": 153.5
+    },
+    {
+     "pos": -3,
+     "n": 521,
+     "ratio": 6.11,
+     "cons": "RNCASWS",
+     "score": 200.4
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -64,
+     "n": 1518,
+     "ratio": 1.87,
+     "cons": "GSNSGGGGCGGGGCS",
+     "score": 144.5
+    },
+    {
+     "pos": -62,
+     "n": 1412,
+     "ratio": 1.94,
+     "cons": "SGCCCCGCCCCSNS",
+     "score": 149.4
+    },
+    {
+     "pos": -22,
+     "n": 1088,
+     "ratio": 1.66,
+     "cons": "SGSSSSGGCGSSSS",
+     "score": 81.6
+    },
+    {
+     "pos": -37,
+     "n": 168,
+     "ratio": 2.61,
+     "cons": "RGGMGGAAGYGSSG",
+     "score": 24.8
+    },
+    {
+     "pos": -5,
+     "n": 232,
+     "ratio": 6.61,
+     "cons": "SSSSCGCAGWNSS",
+     "score": 100.7
+    },
+    {
+     "pos": -114,
+     "n": 149,
+     "ratio": 2.83,
+     "cons": "CSNGGCCCCGCCCCC",
+     "score": 26.6
+    },
+    {
+     "pos": -9,
+     "n": 204,
+     "ratio": 2.86,
+     "cons": "GSSSSSGCYGNSNS",
+     "score": 36.0
+    }
+   ],
+   "Start codon context": [
+    {
+     "pos": 48,
+     "n": 240,
+     "ratio": 6.51,
+     "cons": "SSNGCCATGGNSS",
+     "score": 100.0
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -51,
+     "n": 1208,
+     "ratio": 2.03,
+     "cons": "STGACGTSAS",
+     "score": 109.7
+    },
+    {
+     "pos": -83,
+     "n": 33,
+     "ratio": 11.5,
+     "cons": "NNNGTGACGTCACS",
+     "score": 23.0
+    }
+   ],
+   "NRF1": [
+    {
+     "pos": -42,
+     "n": 201,
+     "ratio": 3.81,
+     "cons": "SYGCGCAKGCGCRG",
+     "score": 50.2
+    },
+    {
+     "pos": -76,
+     "n": 46,
+     "ratio": 14.04,
+     "cons": "CGCSTGCGCAGNNS",
+     "score": 35.4
+    }
+   ],
+   "THAP11/Ronin": [
+    {
+     "pos": -90,
+     "n": 76,
+     "ratio": 15.82,
+     "cons": "SNNNGAACTACAWYT",
+     "score": 57.6
+    }
+   ],
+   "CCTTTAAGG (ZNF536-like)": [
+    {
+     "pos": -95,
+     "n": 65,
+     "ratio": 8.31,
+     "cons": "KGYCCCTTTAAGRS",
+     "score": 35.3
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 31,
+    "n": 707,
+    "ratio": 1.61,
+    "cons": "SSSSGGCGGCNGSS"
+   },
+   {
+    "zone": "core",
+    "pos": 63,
+    "n": 558,
+    "ratio": 1.55,
+    "cons": "SCSSCCGCCGCSSSC"
+   },
+   {
+    "zone": "core",
+    "pos": 38,
+    "n": 153,
+    "ratio": 2.77,
+    "cons": "SSNSCCGGAGCNGS"
+   },
+   {
+    "zone": "core",
+    "pos": 20,
+    "n": 148,
+    "ratio": 3.06,
+    "cons": "ATGGCTN"
+   },
+   {
+    "zone": "core",
+    "pos": -308,
+    "n": 27,
+    "ratio": 20.15,
+    "cons": "KSNCTGAAGGAA"
+   }
+  ]
+ },
+ "C1 lncRNA": {
+  "n_pass": 9,
+  "elements": {
+   "5' splice donor": [
+    {
+     "pos": 72,
+     "n": 451,
+     "ratio": 3.54,
+     "cons": "NAGGTRAG",
+     "score": 106.3
+    }
+   ],
+   "TATA box": [
+    {
+     "pos": -34,
+     "n": 116,
+     "ratio": 10.58,
+     "cons": "WNNNNATAAAWRSM",
+     "score": 72.9
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 438,
+     "ratio": 7.36,
+     "cons": "NYCASTS",
+     "score": 206.7
+    }
+   ],
+   "lncRNA CRE-like": [
+    {
+     "pos": -64,
+     "n": 325,
+     "ratio": 3.86,
+     "cons": "TRTGAYNTCAYAR",
+     "score": 85.1
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 20,
+    "n": 692,
+    "ratio": 1.56,
+    "cons": "NRRRRGMAG"
+   },
+   {
+    "zone": "core",
+    "pos": -30,
+    "n": 30,
+    "ratio": 12.27,
+    "cons": "TATTTAN"
+   },
+   {
+    "zone": "core",
+    "pos": -59,
+    "n": 32,
+    "ratio": 60.2,
+    "cons": "KYYTRGAATGTTKRW"
+   },
+   {
+    "zone": "core",
+    "pos": -197,
+    "n": 35,
+    "ratio": 9.29,
+    "cons": "YNNNGCCTCTCCNNGS"
+   },
+   {
+    "zone": "distal",
+    "pos": -1713,
+    "n": 31,
+    "ratio": 19.86,
+    "cons": "TTTCTG"
+   }
+  ]
+ },
+ "C1 small RNA": {
+  "n_pass": 14,
+  "elements": {
+   "C/D box C (snoRNA)": [
+    {
+     "pos": 19,
+     "n": 94,
+     "ratio": 171.16,
+     "cons": "AGCRTGATGATTGGGT",
+     "score": 76.0
+    }
+   ],
+   "tRNA B box": [
+    {
+     "pos": 49,
+     "n": 135,
+     "ratio": 28.15,
+     "cons": "SYGGGTTCRANYCC",
+     "score": 22.0
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 65,
+    "n": 81,
+    "ratio": 67.47,
+    "cons": "TCAAACCTTGTTAYR"
+   },
+   {
+    "zone": "core",
+    "pos": 82,
+    "n": 67,
+    "ratio": 69.83,
+    "cons": "RTYRGCACATTACCYR"
+   },
+   {
+    "zone": "core",
+    "pos": 46,
+    "n": 107,
+    "ratio": 64.3,
+    "cons": "TGTGTGAGATGTGCC"
+   },
+   {
+    "zone": "core",
+    "pos": 1,
+    "n": 82,
+    "ratio": 287.91,
+    "cons": "ATCCTTTTGTAGTT"
+   },
+   {
+    "zone": "core",
+    "pos": 54,
+    "n": 21,
+    "ratio": 24.02,
+    "cons": "AYRTGTAGAGCACCR"
+   },
+   {
+    "zone": "core",
+    "pos": 7,
+    "n": 17,
+    "ratio": 22.61,
+    "cons": "ATACTTTCAGGGATC"
+   },
+   {
+    "zone": "core",
+    "pos": 80,
+    "n": 28,
+    "ratio": 21.49,
+    "cons": "AGSAGGAGGYRCA"
+   },
+   {
+    "zone": "core",
+    "pos": 18,
+    "n": 14,
+    "ratio": 29.92,
+    "cons": "NTNWTCACACNNGC"
+   },
+   {
+    "zone": "core",
+    "pos": -19,
+    "n": 101,
+    "ratio": 5.85,
+    "cons": "MTYAAAAANW"
+   },
+   {
+    "zone": "core",
+    "pos": 26,
+    "n": 16,
+    "ratio": 62.95,
+    "cons": "GYYTGTCTAGYAAA"
+   },
+   {
+    "zone": "core",
+    "pos": 33,
+    "n": 19,
+    "ratio": 76.74,
+    "cons": "YYRYTACTAGAGAAG"
+   },
+   {
+    "zone": "core",
+    "pos": -242,
+    "n": 22,
+    "ratio": 14.26,
+    "cons": "GKKNTGGTKTNNNN"
+   }
+  ]
+ },
+ "C1 pseudo": {
+  "n_pass": 33,
+  "elements": {
+   "Start codon context": [
+    {
+     "pos": 46,
+     "n": 112,
+     "ratio": 336.09,
+     "cons": "AAGATTAGCATGGCCC",
+     "score": 208.3
+    },
+    {
+     "pos": 47,
+     "n": 32,
+     "ratio": 14.51,
+     "cons": "AGATTARYATGGNCCC",
+     "score": 23.3
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": 1,
+     "n": 122,
+     "ratio": 36.38,
+     "cons": "GTGCTYRCTTY",
+     "score": 125.4
+    },
+    {
+     "pos": -3,
+     "n": 590,
+     "ratio": 7.98,
+     "cons": "RNNATG",
+     "score": 220.7
+    }
+   ],
+   "YY1": [
+    {
+     "pos": 13,
+     "n": 49,
+     "ratio": 80.43,
+     "cons": "AACYGCCATCTTCCAG",
+     "score": 43.1
+    },
+    {
+     "pos": 20,
+     "n": 158,
+     "ratio": 5.59,
+     "cons": "GNSAAGATGGCRGN",
+     "score": 34.8
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 63,
+    "n": 130,
+    "ratio": 248.61,
+    "cons": "TGYRCAAGGATGACA"
+   },
+   {
+    "zone": "core",
+    "pos": 77,
+    "n": 46,
+    "ratio": 170.23,
+    "cons": "CAYGCAAATTYRTG"
+   },
+   {
+    "zone": "core",
+    "pos": 20,
+    "n": 76,
+    "ratio": 329.2,
+    "cons": "ATATACTAAAATTGG"
+   },
+   {
+    "zone": "core",
+    "pos": 35,
+    "n": 83,
+    "ratio": 64.15,
+    "cons": "TYRTCTGATCTYRGA"
+   },
+   {
+    "zone": "core",
+    "pos": 36,
+    "n": 36,
+    "ratio": 226.35,
+    "cons": "AYRATACAGAGAAGA"
+   },
+   {
+    "zone": "core",
+    "pos": 44,
+    "n": 79,
+    "ratio": 75.59,
+    "cons": "TNNSCAGGGTTGATT"
+   },
+   {
+    "zone": "core",
+    "pos": -17,
+    "n": 441,
+    "ratio": 4.6,
+    "cons": "TTAAAAA"
+   },
+   {
+    "zone": "core",
+    "pos": 9,
+    "n": 22,
+    "ratio": 33.27,
+    "cons": "TTYRGCAGCACATAT"
+   },
+   {
+    "zone": "core",
+    "pos": 64,
+    "n": 39,
+    "ratio": 20.72,
+    "cons": "GGGCCTGGTTAGTACT"
+   },
+   {
+    "zone": "core",
+    "pos": 27,
+    "n": 87,
+    "ratio": 111.33,
+    "cons": "ATCTGTCACCCCATTG"
+   },
+   {
+    "zone": "core",
+    "pos": 11,
+    "n": 56,
+    "ratio": 330.52,
+    "cons": "ATACCACCCTGAAY"
+   },
+   {
+    "zone": "core",
+    "pos": 81,
+    "n": 43,
+    "ratio": 181.59,
+    "cons": "GGGCTGTAGTGYRCT"
+   },
+   {
+    "zone": "core",
+    "pos": 79,
+    "n": 46,
+    "ratio": 58.66,
+    "cons": "GCAAATTYRTGAAGCR"
+   },
+   {
+    "zone": "core",
+    "pos": 76,
+    "n": 30,
+    "ratio": 31.36,
+    "cons": "TACTTGGATGGGAGAM"
+   },
+   {
+    "zone": "core",
+    "pos": 10,
+    "n": 75,
+    "ratio": 65.27,
+    "cons": "GGYGATCTGGCTGYGA"
+   },
+   {
+    "zone": "core",
+    "pos": 74,
+    "n": 85,
+    "ratio": 9.28,
+    "cons": "GMWGGCYARGMAGGY"
+   },
+   {
+    "zone": "core",
+    "pos": -57,
+    "n": 28,
+    "ratio": 12.41,
+    "cons": "GRGNRNGTGNNGGRR"
+   },
+   {
+    "zone": "core",
+    "pos": 8,
+    "n": 25,
+    "ratio": 16.69,
+    "cons": "GMNNCAGCASCNNC"
+   },
+   {
+    "zone": "core",
+    "pos": 31,
+    "n": 127,
+    "ratio": 6.26,
+    "cons": "GARTTYNTYCTNYTG"
+   },
+   {
+    "zone": "core",
+    "pos": 33,
+    "n": 21,
+    "ratio": 45.24,
+    "cons": "AGGTTTTCYRGTTTTY"
+   },
+   {
+    "zone": "core",
+    "pos": 17,
+    "n": 225,
+    "ratio": 2.47,
+    "cons": "GGNGGCNGCNGSNG"
+   },
+   {
+    "zone": "core",
+    "pos": 25,
+    "n": 51,
+    "ratio": 8.84,
+    "cons": "STGCCCNATCTCMT"
+   },
+   {
+    "zone": "core",
+    "pos": 38,
+    "n": 21,
+    "ratio": 43.63,
+    "cons": "ATCTGTTCTTATCAG"
+   },
+   {
+    "zone": "core",
+    "pos": 1,
+    "n": 394,
+    "ratio": 1.78,
+    "cons": "YNNTNCYKSCYNNS"
+   },
+   {
+    "zone": "core",
+    "pos": -3,
+    "n": 23,
+    "ratio": 31.39,
+    "cons": "YNWGTCTATGGCCAT"
+   },
+   {
+    "zone": "core",
+    "pos": 84,
+    "n": 26,
+    "ratio": 119.87,
+    "cons": "CTGTAGTGYRCTATGC"
+   },
+   {
+    "zone": "core",
+    "pos": 11,
+    "n": 36,
+    "ratio": 19.37,
+    "cons": "GGAAYCANACAGNGK"
+   }
+  ]
+ },
+ "C2": {
+  "n_pass": 15,
+  "elements": {
+   "YY1": [
+    {
+     "pos": 16,
+     "n": 72,
+     "ratio": 37.49,
+     "cons": "SAAGATGGCGGCGGYS",
+     "score": 80.5
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -25,
+     "n": 75,
+     "ratio": 11.86,
+     "cons": "RMNCCGGAAGYG",
+     "score": 55.3
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -78,
+     "n": 116,
+     "ratio": 4.45,
+     "cons": "KSYSATTGGCNGNS",
+     "score": 35.9
+    },
+    {
+     "pos": -87,
+     "n": 43,
+     "ratio": 12.93,
+     "cons": "YRGCCAATCRGNG",
+     "score": 29.9
+    }
+   ],
+   "TATA box": [
+    {
+     "pos": -30,
+     "n": 168,
+     "ratio": 12.51,
+     "cons": "TATAAANNS",
+     "score": 123.3
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 269,
+     "ratio": 10.02,
+     "cons": "SNCAGWSNS",
+     "score": 154.0
+    },
+    {
+     "pos": -1,
+     "n": 34,
+     "ratio": 9.5,
+     "cons": "CAGAAGNNRS",
+     "score": 20.9
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -70,
+     "n": 267,
+     "ratio": 2.07,
+     "cons": "SNNGCCCCGCCCC",
+     "score": 31.2
+    },
+    {
+     "pos": -51,
+     "n": 164,
+     "ratio": 2.79,
+     "cons": "NGGGGCGGGGCS",
+     "score": 30.8
+    }
+   ],
+   "5' splice donor": [
+    {
+     "pos": 49,
+     "n": 59,
+     "ratio": 10.87,
+     "cons": "AGGTGAGNSNS",
+     "score": 38.0
+    }
+   ],
+   "NRF1": [
+    {
+     "pos": -33,
+     "n": 97,
+     "ratio": 4.12,
+     "cons": "SNGCGCMKGCGCRS",
+     "score": 30.2
+    }
+   ],
+   "Start codon context": [
+    {
+     "pos": 62,
+     "n": 31,
+     "ratio": 22.38,
+     "cons": "RNSATGGAGMNSM",
+     "score": 28.4
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -57,
+     "n": 27,
+     "ratio": 18.86,
+     "cons": "SSGYCACGTGRCSSC",
+     "score": 23.1
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": -5,
+    "n": 50,
+    "ratio": 8.31,
+    "cons": "YNNSCATTCTNS"
+   },
+   {
+    "zone": "core",
+    "pos": -3,
+    "n": 19,
+    "ratio": 23.41,
+    "cons": "SNCCTCTYYCNNNS"
+   }
+  ]
+ },
+ "C2b": {
+  "n_pass": 38,
+  "elements": {
+   "YY1": [
+    {
+     "pos": 12,
+     "n": 199,
+     "ratio": 40.37,
+     "cons": "SAAGATGGCGGCS",
+     "score": 230.0
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -21,
+     "n": 478,
+     "ratio": 2.75,
+     "cons": "NRCTTCCGG",
+     "score": 83.8
+    },
+    {
+     "pos": -31,
+     "n": 305,
+     "ratio": 5.19,
+     "cons": "CCGGAAGTGN",
+     "score": 114.6
+    },
+    {
+     "pos": -80,
+     "n": 48,
+     "ratio": 19.13,
+     "cons": "GSNNCCGGAAGNR",
+     "score": 42.0
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -60,
+     "n": 166,
+     "ratio": 8.11,
+     "cons": "GTGACGTCAN",
+     "score": 79.6
+    },
+    {
+     "pos": -33,
+     "n": 88,
+     "ratio": 11.83,
+     "cons": "SKNNGTGACGTSAS",
+     "score": 58.4
+    },
+    {
+     "pos": -40,
+     "n": 162,
+     "ratio": 3.23,
+     "cons": "KNTGACGTCAY",
+     "score": 31.8
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -1,
+     "n": 844,
+     "ratio": 14.72,
+     "cons": "CAGW",
+     "score": 300.0
+    },
+    {
+     "pos": -3,
+     "n": 444,
+     "ratio": 11.27,
+     "cons": "NYCACTS",
+     "score": 275.1
+    },
+    {
+     "pos": -3,
+     "n": 236,
+     "ratio": 6.63,
+     "cons": "KYTGTNKYY",
+     "score": 100.8
+    }
+   ],
+   "TATA box": [
+    {
+     "pos": -29,
+     "n": 598,
+     "ratio": 4.2,
+     "cons": "WTAAAW",
+     "score": 252.0
+    }
+   ],
+   "5' splice donor": [
+    {
+     "pos": 52,
+     "n": 75,
+     "ratio": 23.14,
+     "cons": "SNNGGTGAGTGNNN",
+     "score": 68.7
+    },
+    {
+     "pos": 54,
+     "n": 150,
+     "ratio": 6.0,
+     "cons": "SAGGTGAG",
+     "score": 59.7
+    },
+    {
+     "pos": 63,
+     "n": 163,
+     "ratio": 3.39,
+     "cons": "NAGGTAAG",
+     "score": 35.8
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -74,
+     "n": 133,
+     "ratio": 14.07,
+     "cons": "RRCCAATCAGMR",
+     "score": 84.6
+    },
+    {
+     "pos": -94,
+     "n": 296,
+     "ratio": 3.24,
+     "cons": "YKNYSATTGGYYR",
+     "score": 62.7
+    },
+    {
+     "pos": -77,
+     "n": 555,
+     "ratio": 2.07,
+     "cons": "RRCCAATSR",
+     "score": 52.3
+    },
+    {
+     "pos": -172,
+     "n": 82,
+     "ratio": 6.76,
+     "cons": "YTYTSATTGGYY",
+     "score": 31.8
+    },
+    {
+     "pos": -62,
+     "n": 368,
+     "ratio": 2.19,
+     "cons": "SYSATTGGYYN",
+     "score": 37.0
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -70,
+     "n": 753,
+     "ratio": 2.09,
+     "cons": "SNNNGGGGCGGGGCN",
+     "score": 85.1
+    },
+    {
+     "pos": -66,
+     "n": 1094,
+     "ratio": 1.66,
+     "cons": "SCCCCGCCCCS",
+     "score": 76.3
+    },
+    {
+     "pos": -22,
+     "n": 524,
+     "ratio": 1.65,
+     "cons": "SGGGGCGGGGCNNS",
+     "score": 29.5
+    }
+   ],
+   "Start codon context": [
+    {
+     "pos": 23,
+     "n": 389,
+     "ratio": 3.17,
+     "cons": "RNSATGGCGN",
+     "score": 74.7
+    }
+   ],
+   "NRF1": [
+    {
+     "pos": -39,
+     "n": 462,
+     "ratio": 2.56,
+     "cons": "YGCGCMKGCGC",
+     "score": 72.2
+    },
+    {
+     "pos": -9,
+     "n": 53,
+     "ratio": 5.22,
+     "cons": "YGCGCATGCGCNK",
+     "score": 20.0
+    },
+    {
+     "pos": -171,
+     "n": 92,
+     "ratio": 4.9,
+     "cons": "YGCGCATGCGC",
+     "score": 32.3
+    },
+    {
+     "pos": -76,
+     "n": 32,
+     "ratio": 15.44,
+     "cons": "SNNSKGCGCATGC",
+     "score": 25.7
+    }
+   ],
+   "E-box": [
+    {
+     "pos": -52,
+     "n": 175,
+     "ratio": 2.93,
+     "cons": "NGYCACGTGRNS",
+     "score": 33.4
+    }
+   ],
+   "THAP11/Ronin": [
+    {
+     "pos": -120,
+     "n": 55,
+     "ratio": 8.77,
+     "cons": "GARTTGTAGTYY",
+     "score": 29.7
+    },
+    {
+     "pos": -69,
+     "n": 51,
+     "ratio": 8.12,
+     "cons": "GAACTACANYTC",
+     "score": 27.9
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 25,
+    "n": 1049,
+    "ratio": 1.84,
+    "cons": "GGNSGCGGCGGNNS"
+   },
+   {
+    "zone": "core",
+    "pos": 25,
+    "n": 282,
+    "ratio": 1.95,
+    "cons": "GCNGCTGCCGCNGS"
+   },
+   {
+    "zone": "core",
+    "pos": -7,
+    "n": 29,
+    "ratio": 20.58,
+    "cons": "GNNGGCTGAGNNS"
+   },
+   {
+    "zone": "core",
+    "pos": 37,
+    "n": 475,
+    "ratio": 1.51,
+    "cons": "TYYYNNCTKYTYYY"
+   },
+   {
+    "zone": "core",
+    "pos": -9,
+    "n": 71,
+    "ratio": 6.66,
+    "cons": "SNNSSCGGGAGWNN"
+   },
+   {
+    "zone": "core",
+    "pos": 38,
+    "n": 27,
+    "ratio": 24.33,
+    "cons": "SNNSGTCCCCGSSS"
+   },
+   {
+    "zone": "core",
+    "pos": 50,
+    "n": 679,
+    "ratio": 1.51,
+    "cons": "SNSGGASCCSGGS"
+   },
+   {
+    "zone": "core",
+    "pos": 11,
+    "n": 22,
+    "ratio": 20.64,
+    "cons": "CGSRGCCGGGMNSG"
+   }
+  ]
+ },
+ "C3": {
+  "n_pass": 17,
+  "elements": {
+   "5' splice donor": [
+    {
+     "pos": 64,
+     "n": 293,
+     "ratio": 8.24,
+     "cons": "RGGTAAG",
+     "score": 150.5
+    },
+    {
+     "pos": 65,
+     "n": 459,
+     "ratio": 2.62,
+     "cons": "GGTGAG",
+     "score": 66.5
+    },
+    {
+     "pos": 57,
+     "n": 23,
+     "ratio": 33.51,
+     "cons": "AMCAGTAAGTNYK",
+     "score": 25.9
+    }
+   ],
+   "TATA box": [
+    {
+     "pos": -30,
+     "n": 426,
+     "ratio": 6.84,
+     "cons": "NATAAARR",
+     "score": 191.5
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 785,
+     "ratio": 7.08,
+     "cons": "SNCAGW",
+     "score": 300.0
+    },
+    {
+     "pos": -2,
+     "n": 459,
+     "ratio": 5.58,
+     "cons": "YCAYTY",
+     "score": 171.2
+    },
+    {
+     "pos": -2,
+     "n": 279,
+     "ratio": 3.18,
+     "cons": "TCAS",
+     "score": 53.9
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -76,
+     "n": 143,
+     "ratio": 12.95,
+     "cons": "SRGCCAATCAGNG",
+     "score": 92.7
+    },
+    {
+     "pos": -71,
+     "n": 145,
+     "ratio": 4.04,
+     "cons": "CYSATTGGCTS",
+     "score": 38.9
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -12,
+     "n": 227,
+     "ratio": 2.65,
+     "cons": "STTCCGG",
+     "score": 33.2
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -61,
+     "n": 95,
+     "ratio": 16.56,
+     "cons": "GTGACGTCACM",
+     "score": 71.5
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -50,
+     "n": 515,
+     "ratio": 1.76,
+     "cons": "SSCCCCGCCCCSSSC",
+     "score": 39.5
+    },
+    {
+     "pos": -48,
+     "n": 505,
+     "ratio": 1.73,
+     "cons": "SGGGGGCGGGGCSSGG",
+     "score": 37.6
+    }
+   ],
+   "NRF1": [
+    {
+     "pos": -37,
+     "n": 60,
+     "ratio": 9.21,
+     "cons": "STGCGCMTGCGCRSY",
+     "score": 30.4
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": 17,
+    "n": 357,
+    "ratio": 2.0,
+    "cons": "SGCNGCGGCGGSSGC"
+   },
+   {
+    "zone": "core",
+    "pos": 65,
+    "n": 55,
+    "ratio": 7.97,
+    "cons": "GGTAGGT"
+   },
+   {
+    "zone": "core",
+    "pos": -32,
+    "n": 175,
+    "ratio": 3.04,
+    "cons": "NNNTNWARCYK"
+   }
+  ]
+ },
+ "C4 Pol II": {
+  "n_pass": 19,
+  "elements": {
+   "TATA box": [
+    {
+     "pos": -31,
+     "n": 656,
+     "ratio": 5.2,
+     "cons": "YATAAAR",
+     "score": 253.0
+    }
+   ],
+   "5' splice donor": [
+    {
+     "pos": 69,
+     "n": 585,
+     "ratio": 2.29,
+     "cons": "MAGGTGAG",
+     "score": 66.6
+    },
+    {
+     "pos": 74,
+     "n": 119,
+     "ratio": 4.9,
+     "cons": "GTAAGT",
+     "score": 42.6
+    },
+    {
+     "pos": 72,
+     "n": 108,
+     "ratio": 4.81,
+     "cons": "CAGGTAM",
+     "score": 37.4
+    }
+   ],
+   "Initiator": [
+    {
+     "pos": -3,
+     "n": 667,
+     "ratio": 8.24,
+     "cons": "SNCAGWS",
+     "score": 300.0
+    },
+    {
+     "pos": -2,
+     "n": 308,
+     "ratio": 5.17,
+     "cons": "NCASA",
+     "score": 108.2
+    }
+   ],
+   "CRE": [
+    {
+     "pos": -58,
+     "n": 292,
+     "ratio": 4.98,
+     "cons": "RTGAYRTCAYN",
+     "score": 104.7
+    }
+   ],
+   "GC box": [
+    {
+     "pos": -57,
+     "n": 191,
+     "ratio": 2.56,
+     "cons": "SNSGGGGCGGGGCS",
+     "score": 32.5
+    },
+    {
+     "pos": -65,
+     "n": 250,
+     "ratio": 2.34,
+     "cons": "SSCCCCGCCCCSNSC",
+     "score": 37.3
+    },
+    {
+     "pos": -24,
+     "n": 263,
+     "ratio": 1.62,
+     "cons": "SSCNCCGCCCNSCCCC",
+     "score": 25.4
+    }
+   ],
+   "lncRNA CRE-like": [
+    {
+     "pos": -66,
+     "n": 46,
+     "ratio": 11.92,
+     "cons": "TCACAATG",
+     "score": 31.3
+    }
+   ],
+   "CCAAT box": [
+    {
+     "pos": -66,
+     "n": 58,
+     "ratio": 29.85,
+     "cons": "CKSYGATTGGCYGS",
+     "score": 59.4
+    },
+    {
+     "pos": -76,
+     "n": 59,
+     "ratio": 14.91,
+     "cons": "CRGCCAATCRGNGSS",
+     "score": 47.2
+    }
+   ],
+   "ETS": [
+    {
+     "pos": -36,
+     "n": 55,
+     "ratio": 9.09,
+     "cons": "SSNSCCGGAAGYGN",
+     "score": 31.0
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": -4,
+    "n": 250,
+    "ratio": 5.01,
+    "cons": "YNNCATTYCNNS"
+   },
+   {
+    "zone": "core",
+    "pos": -188,
+    "n": 28,
+    "ratio": 25.22,
+    "cons": "GSNNGGAGTCNKN"
+   },
+   {
+    "zone": "core",
+    "pos": -214,
+    "n": 30,
+    "ratio": 25.78,
+    "cons": "KNNNGTGTTCNNK"
+   },
+   {
+    "zone": "core",
+    "pos": -6,
+    "n": 28,
+    "ratio": 25.96,
+    "cons": "KYTYTCATTTYYCC"
+   },
+   {
+    "zone": "core",
+    "pos": -243,
+    "n": 37,
+    "ratio": 13.01,
+    "cons": "NGCCTGCAN"
+   }
+  ]
+ },
+ "C4 small RNA": {
+  "n_pass": 16,
+  "elements": {
+   "C/D box C (snoRNA)": [
+    {
+     "pos": 19,
+     "n": 290,
+     "ratio": 13.23,
+     "cons": "NSNRTGATGAYTRN",
+     "score": 110.6
+    },
+    {
+     "pos": 3,
+     "n": 64,
+     "ratio": 13.79,
+     "cons": "RCCARTGATGANWN",
+     "score": 29.3
+    }
+   ]
+  },
+  "unassigned": [
+   {
+    "zone": "core",
+    "pos": -4,
+    "n": 93,
+    "ratio": 244.92,
+    "cons": "TNWGATCCTTTTGTA"
+   },
+   {
+    "zone": "core",
+    "pos": 84,
+    "n": 102,
+    "ratio": 83.97,
+    "cons": "YRGCACATTACCYRTC"
+   },
+   {
+    "zone": "core",
+    "pos": 64,
+    "n": 161,
+    "ratio": 157.54,
+    "cons": "CTCAAACCTTGTTAYR"
+   },
+   {
+    "zone": "core",
+    "pos": 50,
+    "n": 54,
+    "ratio": 53.02,
+    "cons": "TGAGATGTGCCTCCC"
+   },
+   {
+    "zone": "core",
+    "pos": 8,
+    "n": 27,
+    "ratio": 21.5,
+    "cons": "TGTRGTTCATAAGY"
+   },
+   {
+    "zone": "core",
+    "pos": 42,
+    "n": 156,
+    "ratio": 97.66,
+    "cons": "CNCATGTGTGAGATG"
+   },
+   {
+    "zone": "core",
+    "pos": 82,
+    "n": 70,
+    "ratio": 42.62,
+    "cons": "GTYRGCACATTACCC"
+   },
+   {
+    "zone": "core",
+    "pos": 54,
+    "n": 32,
+    "ratio": 114.3,
+    "cons": "CTGRAACTCTGAGGTC"
+   },
+   {
+    "zone": "core",
+    "pos": 7,
+    "n": 132,
+    "ratio": 3.41,
+    "cons": "NKGGKGNNNNGNGG"
+   },
+   {
+    "zone": "core",
+    "pos": 31,
+    "n": 28,
+    "ratio": 17.37,
+    "cons": "WCTGNNNNTCWNNWG"
+   },
+   {
+    "zone": "core",
+    "pos": 5,
+    "n": 43,
+    "ratio": 154.59,
+    "cons": "TTTTGTAGTTCATA"
+   },
+   {
+    "zone": "core",
+    "pos": -18,
+    "n": 52,
+    "ratio": 6.05,
+    "cons": "NNTWAAAAKNNW"
+   },
+   {
+    "zone": "core",
+    "pos": 48,
+    "n": 66,
+    "ratio": 4.12,
+    "cons": "CTSYCCCCTGCCCC"
+   },
+   {
+    "zone": "distal",
+    "pos": -1368,
+    "n": 19,
+    "ratio": 35.04,
+    "cons": "WMNRATTATTNNW"
+   }
+  ]
+ }
+}

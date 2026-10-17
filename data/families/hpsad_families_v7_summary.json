@@ -1,0 +1,720 @@
+{
+  "parameters": {
+    "K": 16,
+    "MAX_DF": 50,
+    "S_CAND": 0.02,
+    "MIN_SHARED": 20,
+    "DIAG_TOL": 60,
+    "MIN_SPAN": 500,
+    "MIN_COLINEAR": 0.8,
+    "MIN_IDENT": 0.8,
+    "seed": 7,
+    "family_size": "distinct loci (overlapping windows of one locus count once)"
+  },
+  "calibration_detection_by_identity": {
+    "1.0": 0.997,
+    "0.95": 0.997,
+    "0.9": 0.987,
+    "0.85": 0.973,
+    "0.82": 0.967,
+    "0.8": 0.883,
+    "0.75": 0.36,
+    "0.7": 0.057,
+    "shuffled": 0.0,
+    "shared_300nt_chunk": 0.0
+  },
+  "segments": 69668,
+  "links": 23229,
+  "families_total": 56661,
+  "linked_groups_with_2plus_members": 9583,
+  "segments_in_multi_member_families": 5520,
+  "multi_member_families": 1417,
+  "family_size_distribution": {
+    "2": 862,
+    "3": 216,
+    "4": 108,
+    "5": 72,
+    "6": 46,
+    "7": 17,
+    "8": 16,
+    "9": 16,
+    "10": 13,
+    "11": 4,
+    "12": 7,
+    "13": 1,
+    "14": 6,
+    "15": 4,
+    "16": 4,
+    "17": 3,
+    "18": 5,
+    "19": 1,
+    "22": 2,
+    "24": 2,
+    "25": 2,
+    "26": 1,
+    "27": 3,
+    "28": 1,
+    "29": 1,
+    "34": 1,
+    "37": 1,
+    "40": 1,
+    "42": 1
+  },
+  "segments_vs_effective_N_by_cohort_class": {
+    "C1|non_coding": [
+      8705,
+      8314.5
+    ],
+    "C1|protein_coding": [
+      11017,
+      10449.1
+    ],
+    "C1|pseudogene": [
+      8111,
+      6905.4
+    ],
+    "C2b|non_coding": [
+      2133,
+      2071.5
+    ],
+    "C2b|protein_coding": [
+      3562,
+      3508.7
+    ],
+    "C2b|pseudogene": [
+      381,
+      279.4
+    ],
+    "C2|non_coding": [
+      809,
+      748.7
+    ],
+    "C2|protein_coding": [
+      1332,
+      1262.4
+    ],
+    "C2|pseudogene": [
+      751,
+      562.5
+    ],
+    "C3x|non_coding": [
+      164,
+      164.0
+    ],
+    "C3x|protein_coding": [
+      1162,
+      1159.2
+    ],
+    "C3x|pseudogene": [
+      14,
+      14.0
+    ],
+    "C3|non_coding": [
+      2439,
+      2352.7
+    ],
+    "C3|protein_coding": [
+      6832,
+      6661.5
+    ],
+    "C3|pseudogene": [
+      915,
+      799.9
+    ],
+    "C4|non_coding": [
+      9593,
+      9395.8
+    ],
+    "C4|protein_coding": [
+      4522,
+      4356.5
+    ],
+    "C4|pseudogene": [
+      7226,
+      6742.5
+    ]
+  },
+  "largest_families": [
+    {
+      "size": 42,
+      "segments": 42,
+      "example_symbols": [
+        "OR7E100P",
+        "OR7E102P",
+        "OR7E103P",
+        "OR7E105P",
+        "OR7E108P",
+        "OR7E10P",
+        "OR7E110P",
+        "OR7E111FP",
+        "OR7E115P",
+        "OR7E116P",
+        "OR7E117P",
+        "OR7E121P"
+      ],
+      "cohorts": {
+        "C1": 37,
+        "C4": 4,
+        "C2": 1
+      }
+    },
+    {
+      "size": 40,
+      "segments": 40,
+      "example_symbols": [
+        "LOC124900632",
+        "LOC124902333",
+        "LOC124903275",
+        "LOC124904986",
+        "LOC124905168",
+        "LOC124905169",
+        "RNU6-1021P",
+        "RNU6-104P",
+        "RNU6-1193P",
+        "RNU6-1207P",
+        "RNU6-1210P",
+        "RNU6-1269P"
+      ],
+      "cohorts": {
+        "C4": 34,
+        "C1": 6
+      }
+    },
+    {
+      "size": 37,
+      "segments": 40,
+      "example_symbols": [
+        "GOLGA2P2Y",
+        "GOLGA2P3Y",
+        "GOLGA2P5",
+        "GOLGA2P8",
+        "GOLGA6A",
+        "GOLGA6B",
+        "GOLGA6C",
+        "GOLGA6D",
+        "GOLGA6EP",
+        "GOLGA6FP",
+        "GOLGA6L1",
+        "GOLGA6L10"
+      ],
+      "cohorts": {
+        "C3": 3,
+        "C1": 31,
+        "C4": 4,
+        "C2": 2
+      }
+    },
+    {
+      "size": 34,
+      "segments": 35,
+      "example_symbols": [
+        "LOC100421094",
+        "LOC124906414",
+        "LOC392187",
+        "LOC392196",
+        "LOC402329",
+        "LOC649352",
+        "USP17L1",
+        "USP17L10",
+        "USP17L11",
+        "USP17L12",
+        "USP17L13",
+        "USP17L14P"
+      ],
+      "cohorts": {
+        "C1": 22,
+        "C4": 13
+      }
+    },
+    {
+      "size": 29,
+      "segments": 32,
+      "example_symbols": [
+        "DUX4L1",
+        "DUX4L10",
+        "DUX4L11",
+        "DUX4L12",
+        "DUX4L13",
+        "DUX4L14",
+        "DUX4L15",
+        "DUX4L16",
+        "DUX4L17",
+        "DUX4L18",
+        "DUX4L19",
+        "DUX4L2"
+      ],
+      "cohorts": {
+        "C2": 10,
+        "C3": 3,
+        "C1": 18,
+        "C4": 1
+      }
+    },
+    {
+      "size": 28,
+      "segments": 29,
+      "example_symbols": [
+        "RBMY1A1",
+        "RBMY1B",
+        "RBMY1E",
+        "RBMY1F",
+        "RBMY1J",
+        "RBMY2AP",
+        "RBMY2CP",
+        "RBMY2DP",
+        "RBMY2FP",
+        "RBMY2HP",
+        "RBMY2MP",
+        "TSPY1"
+      ],
+      "cohorts": {
+        "C1": 25,
+        "C3": 1,
+        "C2b": 3
+      }
+    },
+    {
+      "size": 27,
+      "segments": 31,
+      "example_symbols": [
+        "MTCO1P1",
+        "MTCO1P10",
+        "MTCO1P11",
+        "MTCO1P12",
+        "MTCO1P13",
+        "MTCO1P15",
+        "MTCO1P18",
+        "MTCO1P2",
+        "MTCO1P23",
+        "MTCO1P25",
+        "MTCO1P33",
+        "MTCO1P36"
+      ],
+      "cohorts": {
+        "C2": 14,
+        "C3": 3,
+        "C4": 10,
+        "C1": 2,
+        "C2b": 2
+      }
+    },
+    {
+      "size": 27,
+      "segments": 32,
+      "example_symbols": [
+        "LOC100996756",
+        "LOC124904613",
+        "LOC124904631",
+        "LOC124904634",
+        "PDE4DIPP6",
+        "RNU1-1",
+        "RNU1-2",
+        "RNU1-3",
+        "RNVU1-14",
+        "RNVU1-15",
+        "RNVU1-17",
+        "RNVU1-18"
+      ],
+      "cohorts": {
+        "C1": 19,
+        "C3": 4,
+        "C4": 6,
+        "C2b": 3
+      }
+    },
+    {
+      "size": 27,
+      "segments": 27,
+      "example_symbols": [
+        "OR7E106P",
+        "OR7E109P",
+        "OR7E11P",
+        "OR7E126P",
+        "OR7E12P",
+        "OR7E148P",
+        "OR7E158P",
+        "OR7E15P",
+        "OR7E162P",
+        "OR7E21P",
+        "OR7E23P",
+        "OR7E26P"
+      ],
+      "cohorts": {
+        "C1": 22,
+        "C4": 4,
+        "C2": 1
+      }
+    },
+    {
+      "size": 26,
+      "segments": 44,
+      "example_symbols": [
+        "AP1B1P1",
+        "C1QTNF9B",
+        "CCDC144NL-AS1",
+        "FAM153A",
+        "GTF2IP8",
+        "LINC00408",
+        "LOC101928608",
+        "LOC101930665",
+        "LOC102724431",
+        "LOC105370115",
+        "LOC105371703",
+        "LOC105372004"
+      ],
+      "cohorts": {
+        "C2b": 14,
+        "C3": 13,
+        "C1": 11,
+        "C4": 6
+      }
+    },
+    {
+      "size": 25,
+      "segments": 25,
+      "example_symbols": [
+        "LOC105374817",
+        "SNAR-A1",
+        "SNAR-A10",
+        "SNAR-A11",
+        "SNAR-A12",
+        "SNAR-A13",
+        "SNAR-A14",
+        "SNAR-A2",
+        "SNAR-A3",
+        "SNAR-A4",
+        "SNAR-A5",
+        "SNAR-A6"
+      ],
+      "cohorts": {
+        "C4": 2,
+        "C1": 21,
+        "C2b": 2
+      }
+    },
+    {
+      "size": 25,
+      "segments": 25,
+      "example_symbols": [
+        "BNIP3P10",
+        "BNIP3P15",
+        "BNIP3P18",
+        "BNIP3P19",
+        "BNIP3P20",
+        "BNIP3P21",
+        "BNIP3P22",
+        "BNIP3P23",
+        "BNIP3P24",
+        "BNIP3P25",
+        "BNIP3P26",
+        "BNIP3P29"
+      ],
+      "cohorts": {
+        "C4": 20,
+        "C1": 5
+      }
+    },
+    {
+      "size": 24,
+      "segments": 24,
+      "example_symbols": [
+        "CICP1",
+        "CICP10",
+        "CICP12",
+        "CICP15",
+        "CICP16",
+        "CICP18",
+        "CICP19",
+        "CICP2",
+        "CICP20",
+        "CICP21",
+        "CICP23",
+        "CICP24"
+      ],
+      "cohorts": {
+        "C4": 8,
+        "C2": 13,
+        "C2b": 2,
+        "C1": 1
+      }
+    },
+    {
+      "size": 24,
+      "segments": 34,
+      "example_symbols": [
+        "MIR1283-1",
+        "MIR1283-2",
+        "MIR515-2",
+        "MIR516A2",
+        "MIR516B1",
+        "MIR516B2",
+        "MIR518A1",
+        "MIR518A2",
+        "MIR518B",
+        "MIR518C",
+        "MIR518D",
+        "MIR518E"
+      ],
+      "cohorts": {
+        "C4": 16,
+        "C2": 11,
+        "C3": 1,
+        "C1": 5,
+        "C2b": 1
+      }
+    },
+    {
+      "size": 22,
+      "segments": 22,
+      "example_symbols": [
+        "LOC105376781",
+        "LOC112267979",
+        "LOC112267980",
+        "LOC112268070",
+        "LOC124900384",
+        "SEPTIN14P10",
+        "SEPTIN14P11",
+        "SEPTIN14P13",
+        "SEPTIN14P14",
+        "SEPTIN14P15",
+        "SEPTIN14P16",
+        "SEPTIN14P17"
+      ],
+      "cohorts": {
+        "C1": 2,
+        "C4": 3,
+        "C2": 15,
+        "C2b": 2
+      }
+    },
+    {
+      "size": 22,
+      "segments": 22,
+      "example_symbols": [
+        "LOC124904108",
+        "LOC124904706",
+        "RNU6-1052P",
+        "RNU6-1054P",
+        "RNU6-1076P",
+        "RNU6-1100P",
+        "RNU6-1118P",
+        "RNU6-1199P",
+        "RNU6-1217P",
+        "RNU6-1254P",
+        "RNU6-1319P",
+        "RNU6-177P"
+      ],
+      "cohorts": {
+        "C4": 14,
+        "C1": 7,
+        "C2b": 1
+      }
+    },
+    {
+      "size": 19,
+      "segments": 20,
+      "example_symbols": [
+        "MTND5P10",
+        "MTND5P11",
+        "MTND5P14",
+        "MTND5P17",
+        "MTND5P18",
+        "MTND5P19",
+        "MTND5P23",
+        "MTND5P24",
+        "MTND5P25",
+        "MTND5P27",
+        "MTND5P28",
+        "MTND5P29"
+      ],
+      "cohorts": {
+        "C2": 13,
+        "C1": 1,
+        "C4": 6
+      }
+    },
+    {
+      "size": 18,
+      "segments": 18,
+      "example_symbols": [
+        "RNA5S1",
+        "RNA5S10",
+        "RNA5S11",
+        "RNA5S12",
+        "RNA5S13",
+        "RNA5S14",
+        "RNA5S15",
+        "RNA5S16",
+        "RNA5S17",
+        "RNA5S2",
+        "RNA5S3",
+        "RNA5S4"
+      ],
+      "cohorts": {
+        "C1": 16,
+        "C2b": 1,
+        "C4": 1
+      }
+    },
+    {
+      "size": 18,
+      "segments": 27,
+      "example_symbols": [
+        "MTND1P1",
+        "MTND1P11",
+        "MTND1P22",
+        "MTND1P27",
+        "MTND1P28",
+        "MTND1P36",
+        "MTND1P6",
+        "MTND2P8",
+        "MTND4P33",
+        "MTRNR2L1",
+        "MTRNR2L10",
+        "MTRNR2L11"
+      ],
+      "cohorts": {
+        "C1": 12,
+        "C3": 4,
+        "C4": 11
+      }
+    },
+    {
+      "size": 18,
+      "segments": 18,
+      "example_symbols": [
+        "CYP4F25P",
+        "CYP4F27P",
+        "CYP4F29P",
+        "CYP4F30P",
+        "CYP4F31P",
+        "CYP4F34P",
+        "CYP4F35P",
+        "CYP4F44P",
+        "CYP4F45P",
+        "CYP4F59P",
+        "CYP4F60P",
+        "CYP4F62P"
+      ],
+      "cohorts": {
+        "C4": 7,
+        "C1": 11
+      }
+    },
+    {
+      "size": 18,
+      "segments": 18,
+      "example_symbols": [
+        "SPDYE11",
+        "SPDYE12",
+        "SPDYE13",
+        "SPDYE15",
+        "SPDYE16",
+        "SPDYE17",
+        "SPDYE18",
+        "SPDYE19P",
+        "SPDYE20P",
+        "SPDYE21",
+        "SPDYE22P",
+        "SPDYE3"
+      ],
+      "cohorts": {
+        "C1": 13,
+        "C4": 4,
+        "C3": 1
+      }
+    },
+    {
+      "size": 18,
+      "segments": 18,
+      "example_symbols": [
+        "ELOCP10",
+        "ELOCP11",
+        "ELOCP12",
+        "ELOCP13",
+        "ELOCP14",
+        "ELOCP15",
+        "ELOCP16",
+        "ELOCP17",
+        "ELOCP26",
+        "ELOCP34",
+        "ELOCP35",
+        "ELOCP36"
+      ],
+      "cohorts": {
+        "C1": 16,
+        "C4": 2
+      }
+    },
+    {
+      "size": 17,
+      "segments": 18,
+      "example_symbols": [
+        "ANKRD30BP3",
+        "LINC00174",
+        "LINC01002",
+        "LINC01061",
+        "LINC03129",
+        "LOC100132062",
+        "LOC100132287",
+        "LOC100133150",
+        "LOC101927999",
+        "LOC102723777",
+        "LOC105376333",
+        "LOC107985355"
+      ],
+      "cohorts": {
+        "C4": 3,
+        "C1": 10,
+        "C2": 3,
+        "C2b": 1,
+        "C3": 1
+      }
+    },
+    {
+      "size": 17,
+      "segments": 17,
+      "example_symbols": [
+        "LOC100419987",
+        "LOC100507393",
+        "LOC100533650",
+        "LOC100533651",
+        "LOC101929817",
+        "LOC124901638",
+        "LOC124901644",
+        "LOC124901645",
+        "LOC124901646",
+        "LOC124901647",
+        "LOC124901648",
+        "LOC124901650"
+      ],
+      "cohorts": {
+        "C2": 15,
+        "C1": 2
+      }
+    },
+    {
+      "size": 17,
+      "segments": 19,
+      "example_symbols": [
+        "LINC02635",
+        "LOC100130854",
+        "LOC102724427",
+        "LOC105370067",
+        "LOC105376982",
+        "LOC105377442",
+        "LOC105377799",
+        "LOC107986099",
+        "LOC112267992",
+        "LOC124900662",
+        "LOC124902697",
+        "LOC124905011"
+      ],
+      "cohorts": {
+        "C1": 11,
+        "C4": 6,
+        "C3": 2
+      }
+    }
+  ]
+}

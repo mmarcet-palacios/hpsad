@@ -1,0 +1,102 @@
+{
+  "segments_written": 64183,
+  "by_cohort_and_class": {
+    "C1|non_coding": {
+      "segments": 8718,
+      "with_N": 9,
+      "full_2000": 8718
+    },
+    "C1|protein_coding": {
+      "segments": 10969,
+      "with_N": 7,
+      "full_2000": 10969
+    },
+    "C1|pseudogene": {
+      "segments": 8118,
+      "with_N": 15,
+      "full_2000": 8118
+    },
+    "C2b|non_coding": {
+      "segments": 2083,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C2b|protein_coding": {
+      "segments": 3554,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C2b|pseudogene": {
+      "segments": 379,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C2|non_coding": {
+      "segments": 811,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C2|protein_coding": {
+      "segments": 1344,
+      "with_N": 2,
+      "full_2000": 0
+    },
+    "C2|pseudogene": {
+      "segments": 752,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C3x|non_coding": {
+      "segments": 95,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C3x|protein_coding": {
+      "segments": 1155,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C3x|pseudogene": {
+      "segments": 3,
+      "with_N": 0,
+      "full_2000": 0
+    },
+    "C3|non_coding": {
+      "segments": 590,
+      "with_N": 0,
+      "full_2000": 377
+    },
+    "C3|protein_coding": {
+      "segments": 6138,
+      "with_N": 0,
+      "full_2000": 3286
+    },
+    "C3|pseudogene": {
+      "segments": 18,
+      "with_N": 0,
+      "full_2000": 12
+    },
+    "C4|non_coding": {
+      "segments": 8425,
+      "with_N": 0,
+      "full_2000": 4885
+    },
+    "C4|protein_coding": {
+      "segments": 4389,
+      "with_N": 0,
+      "full_2000": 2220
+    },
+    "C4|pseudogene": {
+      "segments": 6642,
+      "with_N": 2,
+      "full_2000": 4958
+    }
+  },
+  "N_excluded_total": 35,
+  "positive_controls_-40_to_-20": {
+    "HBB_1": "GGGCTGGGCATAAAAGTCAGG",
+    "HBG1_1": "GGGATGAAGAATAAAAGGAAG",
+    "HBG2_1": "GGGATGAAGAATAAAAGGAAG"
+  },
+  "control_note": "HBB/HBD should contain CATAAAA and HBG1/HBG2 AATAAAA near -31"
+}

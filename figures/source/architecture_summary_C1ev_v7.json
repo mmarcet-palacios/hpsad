@@ -1,0 +1,108 @@
+{
+ "promoters": 12084,
+ "independent": 11345.0,
+ "elements": [
+  {
+   "element": "TATA",
+   "promoters": 1633,
+   "weighted": 1459.2,
+   "shuffled": 202.2,
+   "ratio": 7.22,
+   "true_fraction": 0.86
+  },
+  {
+   "element": "CCAAT",
+   "promoters": 681,
+   "weighted": 638.2,
+   "shuffled": 35.0,
+   "ratio": 18.23,
+   "true_fraction": 0.95
+  },
+  {
+   "element": "GC box",
+   "promoters": 1736,
+   "weighted": 1655.3,
+   "shuffled": 503.2,
+   "ratio": 3.29,
+   "true_fraction": 0.7
+  },
+  {
+   "element": "ETS",
+   "promoters": 293,
+   "weighted": 272.7,
+   "shuffled": 24.7,
+   "ratio": 11.06,
+   "true_fraction": 0.91
+  },
+  {
+   "element": "CRE",
+   "promoters": 390,
+   "weighted": 362.4,
+   "shuffled": 56.6,
+   "ratio": 6.4,
+   "true_fraction": 0.84
+  },
+  {
+   "element": "NRF1",
+   "promoters": 0,
+   "weighted": 0.0,
+   "shuffled": 0.0,
+   "ratio": 0.0,
+   "true_fraction": 1.0
+  },
+  {
+   "element": "THAP11",
+   "promoters": 177,
+   "weighted": 160.5,
+   "shuffled": 8.6,
+   "ratio": 18.73,
+   "true_fraction": 0.95
+  },
+  {
+   "element": "ZBTB33",
+   "promoters": 0,
+   "weighted": 0.0,
+   "shuffled": 0.0,
+   "ratio": 0.0,
+   "true_fraction": 1.0
+  },
+  {
+   "element": "AP-1",
+   "promoters": 54,
+   "weighted": 51.7,
+   "shuffled": 6.8,
+   "ratio": 7.56,
+   "true_fraction": 0.87
+  },
+  {
+   "element": "Inr",
+   "promoters": 2730,
+   "weighted": 2549.8,
+   "shuffled": 188.8,
+   "ratio": 13.51,
+   "true_fraction": 0.93
+  },
+  {
+   "element": "TCT",
+   "promoters": 64,
+   "weighted": 59.2,
+   "shuffled": 11.5,
+   "ratio": 5.15,
+   "true_fraction": 0.81
+  },
+  {
+   "element": "YY1",
+   "promoters": 502,
+   "weighted": 482.3,
+   "shuffled": 54.3,
+   "ratio": 8.87,
+   "true_fraction": 0.89
+  }
+ ],
+ "none_fraction": 0.462,
+ "none_fraction_shuffled": 0.907,
+ "cpg_fraction_all": 0.403,
+ "in_nodes_fraction": 0.967,
+ "n_architectures": 94,
+ "n_nodes": 22
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article and this archive."
+title: "HPSAD: Hierarchical Promoter Sequence Architecture Discovery"
+authors:
+  - family-names: Marcet-Palacios
+    given-names: Marcelo
+    affiliation: "Department of Medicine, University of Alberta, Edmonton, Alberta, Canada"
+    email: marcelo@ualberta.ca
+version: 1.0.0
+date-released: 2026-10-17
+license: MIT
+repository-code: "https://github.com/mmarcet-palacios/hpsad"
+keywords:
+  - promoter
+  - core promoter
+  - motif discovery
+  - transcription start site
+  - pseudogene

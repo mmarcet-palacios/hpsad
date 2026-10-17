@@ -1,0 +1,102 @@
+{
+  "epd_promoters": 29598,
+  "match_method": {
+    "symbol": 28066,
+    "synonym": 1370,
+    "nearest_5kb": 136,
+    "unmatched": 26
+  },
+  "matched_biotypes": {
+    "protein_coding": 29440,
+    "transcribed_pseudogene": 52,
+    "lncRNA": 71,
+    "V_segment": 4,
+    "miRNA": 2,
+    "snRNA": 1,
+    "pseudogene": 2
+  },
+  "main_promoters_only": {
+    "gene_edge": {
+      "n": 16442,
+      "exact_0": 6152,
+      "abs_median": 10,
+      "abs_p75": 333,
+      "abs_p90": 9928,
+      "epd_downstream_of_annotation": 9278,
+      "epd_upstream_of_annotation": 1012,
+      "abs_bins": {
+        ">=5000": 2037,
+        "1000-4999": 888,
+        "500-999": 729,
+        "100-499": 1392,
+        "50-99": 605,
+        "10-49": 2606,
+        "5-9": 695,
+        "1-4": 1338,
+        "0": 6152
+      }
+    },
+    "nearest_transcript": {
+      "n": 16442,
+      "exact_0": 8202,
+      "abs_median": 1,
+      "abs_p75": 21,
+      "abs_p90": 141,
+      "epd_downstream_of_annotation": 6954,
+      "epd_upstream_of_annotation": 1286,
+      "abs_bins": {
+        ">=5000": 579,
+        "1000-4999": 173,
+        "500-999": 182,
+        "100-499": 893,
+        "50-99": 623,
+        "10-49": 3139,
+        "5-9": 910,
+        "1-4": 1741,
+        "0": 8202
+      }
+    }
+  },
+  "all_promoters": {
+    "gene_edge": {
+      "n": 29572,
+      "exact_0": 7027,
+      "abs_median": 186,
+      "abs_p75": 4337,
+      "abs_p90": 40524,
+      "epd_downstream_of_annotation": 17409,
+      "epd_upstream_of_annotation": 5136,
+      "abs_bins": {
+        ">=5000": 7140,
+        "1000-4999": 2572,
+        "500-999": 1877,
+        "100-499": 4474,
+        "50-99": 867,
+        "10-49": 3233,
+        "5-9": 816,
+        "1-4": 1566,
+        "0": 7027
+      }
+    },
+    "nearest_transcript": {
+      "n": 29572,
+      "exact_0": 10080,
+      "abs_median": 17,
+      "abs_p75": 311,
+      "abs_p90": 11656,
+      "epd_downstream_of_annotation": 13150,
+      "epd_upstream_of_annotation": 6342,
+      "abs_bins": {
+        ">=5000": 3855,
+        "1000-4999": 1359,
+        "500-999": 1013,
+        "100-499": 4423,
+        "50-99": 1110,
+        "10-49": 4336,
+        "5-9": 1172,
+        "1-4": 2224,
+        "0": 10080
+      }
+    }
+  }
+}

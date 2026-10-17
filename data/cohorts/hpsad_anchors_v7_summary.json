@@ -1,0 +1,147 @@
+{
+  "genes": 59009,
+  "anchors": 83908,
+  "cohort_by_class_all": {
+    "C0": {
+      "protein_coding": 3,
+      "pseudogene": 2,
+      "non_coding": 5
+    },
+    "C1": {
+      "pseudogene": 8125,
+      "non_coding": 8714,
+      "protein_coding": 11024
+    },
+    "C2": {
+      "protein_coding": 1334,
+      "pseudogene": 751,
+      "non_coding": 809
+    },
+    "C2b": {
+      "pseudogene": 381,
+      "non_coding": 2133,
+      "protein_coding": 3562
+    },
+    "C3": {
+      "pseudogene": 916,
+      "protein_coding": 6832,
+      "non_coding": 2441
+    },
+    "C3x": {
+      "non_coding": 1642,
+      "protein_coding": 4562,
+      "pseudogene": 60
+    },
+    "C4": {
+      "non_coding": 13646,
+      "pseudogene": 8361,
+      "protein_coding": 8605
+    }
+  },
+  "cohort_by_class_EPDnew_anchored": {
+    "C0": {
+      "protein_coding": 2
+    },
+    "C1": {
+      "protein_coding": 9048,
+      "non_coding": 11,
+      "pseudogene": 26
+    },
+    "C2": {
+      "protein_coding": 1108,
+      "non_coding": 1,
+      "pseudogene": 1
+    },
+    "C2b": {
+      "protein_coding": 3246,
+      "non_coding": 3,
+      "pseudogene": 4
+    },
+    "C3": {
+      "protein_coding": 5738,
+      "non_coding": 7,
+      "pseudogene": 7
+    },
+    "C3x": {
+      "protein_coding": 3298,
+      "pseudogene": 4,
+      "non_coding": 3
+    },
+    "C4": {
+      "protein_coding": 7000,
+      "pseudogene": 12,
+      "non_coding": 53
+    }
+  },
+  "cohort_by_class_annotation_anchored": {
+    "C0": {
+      "pseudogene": 2,
+      "non_coding": 5
+    },
+    "C1": {
+      "pseudogene": 7192,
+      "non_coding": 6702,
+      "protein_coding": 950
+    },
+    "C2": {
+      "protein_coding": 107,
+      "pseudogene": 659,
+      "non_coding": 660
+    },
+    "C2b": {
+      "pseudogene": 279,
+      "non_coding": 1071,
+      "protein_coding": 46
+    },
+    "C3": {
+      "pseudogene": 909,
+      "protein_coding": 1094,
+      "non_coding": 2434
+    },
+    "C3x": {
+      "non_coding": 1639,
+      "protein_coding": 1264,
+      "pseudogene": 56
+    },
+    "C4": {
+      "non_coding": 10825,
+      "pseudogene": 7500,
+      "protein_coding": 1152
+    }
+  },
+  "cohort_by_class_CAGE_anchored": {
+    "C0": {
+      "protein_coding": 1
+    },
+    "C1": {
+      "non_coding": 2001,
+      "protein_coding": 1026,
+      "pseudogene": 907
+    },
+    "C2": {
+      "pseudogene": 91,
+      "non_coding": 148,
+      "protein_coding": 119
+    },
+    "C2b": {
+      "pseudogene": 98,
+      "non_coding": 1059,
+      "protein_coding": 270
+    },
+    "C4": {
+      "pseudogene": 849,
+      "non_coding": 2768,
+      "protein_coding": 453
+    }
+  },
+  "primary_trunc_reason": {
+    "none": 38970,
+    "neighbour_gene": 20039
+  },
+  "C4_primary_full_length": 11107,
+  "parameters": {
+    "L_MAX": 2000,
+    "H2H_WINDOW": 1000,
+    "MIN_ALT": 50
+  }
+}

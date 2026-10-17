@@ -1,0 +1,37 @@
+{
+  "segments": 69705,
+  "shift": 100,
+  "by_cohort": {
+    "C1": 27863,
+    "downstream_with_N": 0,
+    "C2b": 6076,
+    "C4": 21343,
+    "C2": 2894,
+    "C3": 10189,
+    "C3x": 1340
+  },
+  "chromosome_end_padded": 0,
+  "upstream_check_mismatches": 788,
+  "first_mismatches": [
+    "NADK_3",
+    "gene-LOC105378598|tx2770681",
+    "gene-LOC105378598|tx2774426",
+    "gene-LOC102724429|tx4997849",
+    "gene-LOC124903831|edge",
+    "gene-LOC124903838|edge",
+    "TNFRSF8_2",
+    "KAZN_2",
+    "gene-FHAD1|tx15247225",
+    "ARHGEF10L_2",
+    "gene-MIR4695|edge",
+    "ECE1_2",
+    "GALE_2",
+    "CEP85_2",
+    "gene-LOC124903884|edge",
+    "gene-COL16A1|tx31689683",
+    "ZNF362_2",
+    "RIMS3_2",
+    "C1orf50_3",
+    "gene-LOC105378690|tx44724119"
+  ]
+}

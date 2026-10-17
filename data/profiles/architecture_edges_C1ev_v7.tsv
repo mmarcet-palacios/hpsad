@@ -1,0 +1,34 @@
+a	b	differs
+(none)	Inr	Inr
+(none)	TATA	TATA
+(none)	GC box	GC box
+(none)	CCAAT	CCAAT
+(none)	YY1	YY1
+(none)	CRE	CRE
+(none)	ETS	ETS
+(none)	THAP11	THAP11
+(none)	TCT	TCT
+Inr	GC box + Inr	GC box
+Inr	TATA + Inr	TATA
+Inr	CCAAT + Inr	CCAAT
+Inr	CRE + Inr	CRE
+Inr	Inr + YY1	YY1
+Inr	ETS + Inr	ETS
+TATA	TATA + Inr	Inr
+TATA	TATA + GC box	GC box
+TATA	TATA + CCAAT	CCAAT
+TATA	TATA + CRE	CRE
+GC box	GC box + Inr	Inr
+GC box	TATA + GC box	TATA
+GC box	GC box + YY1	YY1
+GC box	CCAAT + GC box	CCAAT
+GC box	GC box + CRE	CRE
+CCAAT	TATA + CCAAT	TATA
+CCAAT	CCAAT + Inr	Inr
+CCAAT	CCAAT + GC box	GC box
+YY1	GC box + YY1	GC box
+YY1	Inr + YY1	Inr
+CRE	CRE + Inr	Inr
+CRE	TATA + CRE	TATA
+CRE	GC box + CRE	GC box
+ETS	ETS + Inr	Inr

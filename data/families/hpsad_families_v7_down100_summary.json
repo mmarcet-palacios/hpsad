@@ -1,0 +1,263 @@
+{
+ "segments": 69705,
+ "core_linked_pairs": 31442,
+ "links_joining_families": 4133,
+ "segments_with_changed_weight": 8403,
+ "independent_before": 65748.3,
+ "independent_after": 60957.7,
+ "segments_core_linked_by_biotype": {
+  "pseudogene": 5571,
+  "protein_coding": 2340,
+  "lncRNA": 906,
+  "transcribed_pseudogene": 684,
+  "snoRNA": 475,
+  "tRNA": 383,
+  "miRNA": 164,
+  "snRNA": 94,
+  "rRNA": 20,
+  "ncRNA": 16,
+  "V_segment": 6,
+  "misc_RNA": 4,
+  "Y_RNA": 3,
+  "vault_RNA": 3,
+  "other": 1,
+  "ncRNA_pseudogene": 1
+ },
+ "largest_grown_families": [
+  {
+   "size": 197,
+   "biotypes": {
+    "snoRNA": 178,
+    "pseudogene": 19
+   },
+   "examples": [
+    "LOC124904815",
+    "LOC124904823",
+    "LOC124904813",
+    "LOC124904818",
+    "LOC124904827",
+    "LOC124904821"
+   ]
+  },
+  {
+   "size": 117,
+   "biotypes": {
+    "pseudogene": 115,
+    "snRNA": 2
+   },
+   "examples": [
+    "RN7SKP160",
+    "RN7SKP126",
+    "RN7SKP165",
+    "RN7SKP55",
+    "RN7SKP27",
+    "RN7SKP119"
+   ]
+  },
+  {
+   "size": 112,
+   "biotypes": {
+    "pseudogene": 77,
+    "snRNA": 32,
+    "lncRNA": 2,
+    "transcribed_pseudogene": 1
+   },
+   "examples": [
+    "RNU1-1",
+    "RNU1-1",
+    "RNU1-3",
+    "RNU1-4",
+    "RNU1-2",
+    "RNU1-130P"
+   ]
+  },
+  {
+   "size": 103,
+   "biotypes": {
+    "pseudogene": 83,
+    "lncRNA": 15,
+    "transcribed_pseudogene": 4,
+    "protein_coding": 1
+   },
+   "examples": [
+    "OR7E91P",
+    "OR7E46P",
+    "OR7E62P",
+    "OR7E102P",
+    "OR7E89P",
+    "OR7E28P"
+   ]
+  },
+  {
+   "size": 83,
+   "biotypes": {
+    "pseudogene": 37,
+    "protein_coding": 30,
+    "transcribed_pseudogene": 15,
+    "lncRNA": 1
+   },
+   "examples": [
+    "LOC442132",
+    "GOLGA2_1",
+    "RN7SL241P",
+    "GOLGA2P5",
+    "RN7SL176P",
+    "GOLGA6L6"
+   ]
+  },
+  {
+   "size": 77,
+   "biotypes": {
+    "protein_coding": 60,
+    "transcribed_pseudogene": 9,
+    "lncRNA": 7,
+    "pseudogene": 1
+   },
+   "examples": [
+    "ZNF678_1",
+    "ZNF695_1",
+    "ZNF669_1",
+    "ZNF595_1",
+    "ZNF876P",
+    "ZNF876P"
+   ]
+  },
+  {
+   "size": 76,
+   "biotypes": {
+    "pseudogene": 75,
+    "snoRNA": 1
+   },
+   "examples": [
+    "MTND2P28",
+    "MTND2P28",
+    "MTND2P27",
+    "MTND1P25",
+    "MTRNR2L11",
+    "MTRNR2L11"
+   ]
+  },
+  {
+   "size": 67,
+   "biotypes": {
+    "pseudogene": 65,
+    "snRNA": 2
+   },
+   "examples": [
+    "RNU4-28P",
+    "RNU4-28P",
+    "RNU4-88P",
+    "RNU4-59P",
+    "RNU4-59P",
+    "RNU4-42P"
+   ]
+  },
+  {
+   "size": 66,
+   "biotypes": {
+    "pseudogene": 66
+   },
+   "examples": [
+    "RPL23AP21",
+    "RPL23AP24",
+    "RPL23AP18",
+    "RPL23AP18",
+    "RPL23AP15",
+    "RPL23AP20"
+   ]
+  },
+  {
+   "size": 59,
+   "biotypes": {
+    "pseudogene": 57,
+    "transcribed_pseudogene": 2
+   },
+   "examples": [
+    "RPL21P27",
+    "RPL21P28",
+    "RPL21P28",
+    "RPL21P37",
+    "RPL21P34",
+    "RPL21P38"
+   ]
+  },
+  {
+   "size": 55,
+   "biotypes": {
+    "pseudogene": 50,
+    "protein_coding": 3,
+    "transcribed_pseudogene": 2
+   },
+   "examples": [
+    "HNRNPA1P63",
+    "HNRNPA1P6",
+    "HNRNPA1P54",
+    "HNRNPA1P54",
+    "HNRNPA1P59",
+    "HNRNPA1P59"
+   ]
+  },
+  {
+   "size": 54,
+   "biotypes": {
+    "lncRNA": 31,
+    "protein_coding": 12,
+    "transcribed_pseudogene": 8,
+    "miRNA": 3
+   },
+   "examples": [
+    "LOC442028",
+    "LOC442028",
+    "LOC105373487",
+    "LOC105373487",
+    "POTEF_1",
+    "POTEF_2"
+   ]
+  },
+  {
+   "size": 52,
+   "biotypes": {
+    "pseudogene": 52
+   },
+   "examples": [
+    "RPL17P9",
+    "RPL17P9",
+    "RPL17P6",
+    "RPL17P6",
+    "RPL17P5",
+    "RPL17P7"
+   ]
+  },
+  {
+   "size": 50,
+   "biotypes": {
+    "pseudogene": 38,
+    "protein_coding": 9,
+    "transcribed_pseudogene": 3
+   },
+   "examples": [
+    "PPIAP34",
+    "PPIAP36",
+    "PPIAL4A",
+    "PPIAL4E",
+    "PPIAL4F",
+    "PPIAL4D"
+   ]
+  },
+  {
+   "size": 49,
+   "biotypes": {
+    "pseudogene": 47,
+    "protein_coding": 2
+   },
+   "examples": [
+    "KRT18P57",
+    "KRT18P28",
+    "KRT18P32",
+    "KRT18P33",
+    "KRT18P26",
+    "KRT18P46"
+   ]
+  }
+ ]
+}

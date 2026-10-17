@@ -1,0 +1,1012 @@
+{
+ "cohort": "C1",
+ "promoters": 27833,
+ "independent": 25668.9,
+ "parameters": {
+  "widths": [
+   1,
+   5,
+   11,
+   21
+  ],
+  "flank": 150,
+  "gap": 10,
+  "min_O": 8.0,
+  "min_ratio": 1.5,
+  "ks": [
+   6,
+   7,
+   8
+  ],
+  "fdr": 0.05,
+  "seed": 23
+ },
+ "per_k": {
+  "6": {
+   "threshold": 15.908045846733001,
+   "significant": 163
+  },
+  "7": {
+   "threshold": 9.601018205115173,
+   "significant": 360
+  },
+  "8": {
+   "threshold": 7.279975072205604,
+   "significant": 669
+  }
+ },
+ "known_elements": [
+  {
+   "element": "TATA box",
+   "consensus": "TATAWAWR",
+   "window": [
+    22,
+    40
+   ],
+   "n_hits": 29,
+   "top": [
+    {
+     "k": 6,
+     "kmer": "TATAAA",
+     "d": 29,
+     "width": 5,
+     "O": 419.5,
+     "E": 27.2,
+     "ratio": 15.42,
+     "score": 300.0
+    },
+    {
+     "k": 6,
+     "kmer": "ATAAAA",
+     "d": 30,
+     "width": 5,
+     "O": 352.6,
+     "E": 31.3,
+     "ratio": 11.26,
+     "score": 232.9
+    },
+    {
+     "k": 6,
+     "kmer": "TAAAAG",
+     "d": 29,
+     "width": 5,
+     "O": 299.8,
+     "E": 28.5,
+     "ratio": 10.52,
+     "score": 190.2
+    }
+   ]
+  },
+  {
+   "element": "BRE upstream",
+   "consensus": "SSRCGCC",
+   "window": [
+    30,
+    45
+   ],
+   "n_hits": 0,
+   "top": []
+  },
+  {
+   "element": "CCAAT box",
+   "consensus": "CCAAT",
+   "window": [
+    50,
+    130
+   ],
+   "n_hits": 35,
+   "top": [
+    {
+     "k": 6,
+     "kmer": "GCCAAT",
+     "d": 74,
+     "width": 21,
+     "O": 291.6,
+     "E": 108.8,
+     "ratio": 2.68,
+     "score": 46.9
+    },
+    {
+     "k": 8,
+     "kmer": "CCAATCAG",
+     "d": 62,
+     "width": 21,
+     "O": 108.4,
+     "E": 22.4,
+     "ratio": 4.83,
+     "score": 38.1
+    },
+    {
+     "k": 6,
+     "kmer": "CCAATG",
+     "d": 73,
+     "width": 21,
+     "O": 246.2,
+     "E": 97.3,
+     "ratio": 2.53,
+     "score": 36.0
+    }
+   ]
+  },
+  {
+   "element": "GC box (SP1)",
+   "consensus": "GGGCGG",
+   "window": [
+    30,
+    150
+   ],
+   "n_hits": 28,
+   "top": [
+    {
+     "k": 6,
+     "kmer": "GGGCGG",
+     "d": 56,
+     "width": 21,
+     "O": 1244.6,
+     "E": 550.3,
+     "ratio": 2.26,
+     "score": 141.3
+    },
+    {
+     "k": 7,
+     "kmer": "GGGGCGG",
+     "d": 57,
+     "width": 21,
+     "O": 701.4,
+     "E": 253.3,
+     "ratio": 2.77,
+     "score": 117.2
+    },
+    {
+     "k": 7,
+     "kmer": "GGGCGGG",
+     "d": 55,
+     "width": 21,
+     "O": 785.3,
+     "E": 310.1,
+     "ratio": 2.53,
+     "score": 112.2
+    }
+   ]
+  }
+ ],
+ "bench": [
+  {
+   "motif": "GGGGATCAGT",
+   "position": 30,
+   "fraction": 0.0005,
+   "jitter": 0,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GGGTAT",
+    "d": 34,
+    "width": 5,
+    "O": 61.1,
+    "E": 9.7,
+    "ratio": 6.26,
+    "score": 27.6
+   }
+  },
+  {
+   "motif": "GCTACCCTAG",
+   "position": 30,
+   "fraction": 0.0005,
+   "jitter": 15,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "CCCTAT",
+    "d": 33,
+    "width": 5,
+    "O": 58.5,
+    "E": 11.9,
+    "ratio": 4.9,
+    "score": 21.3
+   }
+  },
+  {
+   "motif": "CATCAGAATG",
+   "position": 30,
+   "fraction": 0.0005,
+   "jitter": 30,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "ATAAGA",
+    "d": 29,
+    "width": 5,
+    "O": 100.7,
+    "E": 20.1,
+    "ratio": 5.02,
+    "score": 36.8
+   }
+  },
+  {
+   "motif": "AGGGGTGTAA",
+   "position": 30,
+   "fraction": 0.001,
+   "jitter": 0,
+   "n_planted": 28,
+   "recovered": true,
+   "best_hit": {
+    "k": 8,
+    "kmer": "GGGGTATA",
+    "d": 32,
+    "width": 11,
+    "O": 13.2,
+    "E": 0.7,
+    "ratio": 18.34,
+    "score": 12.2
+   }
+  },
+  {
+   "motif": "GCCCTAGATA",
+   "position": 30,
+   "fraction": 0.001,
+   "jitter": 15,
+   "n_planted": 28,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TATATA",
+    "d": 31,
+    "width": 5,
+    "O": 197.0,
+    "E": 15.2,
+    "ratio": 12.92,
+    "score": 141.5
+   }
+  },
+  {
+   "motif": "GCATACCCCA",
+   "position": 30,
+   "fraction": 0.001,
+   "jitter": 30,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGCATGGCAC",
+   "position": 30,
+   "fraction": 0.002,
+   "jitter": 0,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CTAATGCAGG",
+   "position": 30,
+   "fraction": 0.002,
+   "jitter": 15,
+   "n_planted": 56,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TAAAGC",
+    "d": 28,
+    "width": 5,
+    "O": 110.6,
+    "E": 18.8,
+    "ratio": 5.88,
+    "score": 46.6
+   }
+  },
+  {
+   "motif": "CTGGATATAC",
+   "position": 30,
+   "fraction": 0.002,
+   "jitter": 30,
+   "n_planted": 56,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TATATA",
+    "d": 31,
+    "width": 5,
+    "O": 197.0,
+    "E": 15.2,
+    "ratio": 12.92,
+    "score": 141.5
+   }
+  },
+  {
+   "motif": "TGGTTACTCA",
+   "position": 30,
+   "fraction": 0.005,
+   "jitter": 0,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 7,
+    "kmer": "GTTACTC",
+    "d": 28,
+    "width": 1,
+    "O": 15.2,
+    "E": 0.6,
+    "ratio": 26.9,
+    "score": 16.4
+   }
+  },
+  {
+   "motif": "TCATAGAAAC",
+   "position": 30,
+   "fraction": 0.005,
+   "jitter": 15,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TATAAA",
+    "d": 29,
+    "width": 5,
+    "O": 417.5,
+    "E": 27.3,
+    "ratio": 15.3,
+    "score": 300.0
+   }
+  },
+  {
+   "motif": "GGACCTTCTG",
+   "position": 30,
+   "fraction": 0.005,
+   "jitter": 30,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "CTTCCG",
+    "d": 20,
+    "width": 21,
+    "O": 284.1,
+    "E": 115.3,
+    "ratio": 2.46,
+    "score": 39.4
+   }
+  },
+  {
+   "motif": "ATAGCTAGGG",
+   "position": 90,
+   "fraction": 0.0005,
+   "jitter": 0,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GATAGG",
+    "d": 86,
+    "width": 1,
+    "O": 26.9,
+    "E": 2.4,
+    "ratio": 11.1,
+    "score": 18.6
+   }
+  },
+  {
+   "motif": "CAGGGTTACA",
+   "position": 90,
+   "fraction": 0.0005,
+   "jitter": 15,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GTCACA",
+    "d": 53,
+    "width": 21,
+    "O": 198.1,
+    "E": 101.7,
+    "ratio": 1.95,
+    "score": 16.7
+   }
+  },
+  {
+   "motif": "CATAAGTTGA",
+   "position": 90,
+   "fraction": 0.0005,
+   "jitter": 30,
+   "n_planted": 14,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TATAAG",
+    "d": 29,
+    "width": 5,
+    "O": 184.5,
+    "E": 12.8,
+    "ratio": 14.39,
+    "score": 140.6
+   }
+  },
+  {
+   "motif": "AGTTGCTGCT",
+   "position": 90,
+   "fraction": 0.001,
+   "jitter": 0,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TAAACTACCT",
+   "position": 90,
+   "fraction": 0.001,
+   "jitter": 15,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AACTCCTTAC",
+   "position": 90,
+   "fraction": 0.001,
+   "jitter": 30,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GAGTGAGTAA",
+   "position": 90,
+   "fraction": 0.002,
+   "jitter": 0,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CTATTCAGGA",
+   "position": 90,
+   "fraction": 0.002,
+   "jitter": 15,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TCACTTGCAC",
+   "position": 90,
+   "fraction": 0.002,
+   "jitter": 30,
+   "n_planted": 56,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "CACGTG",
+    "d": 52,
+    "width": 21,
+    "O": 197.8,
+    "E": 92.1,
+    "ratio": 2.15,
+    "score": 21.0
+   }
+  },
+  {
+   "motif": "GGATGATAGG",
+   "position": 90,
+   "fraction": 0.005,
+   "jitter": 0,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GATTGG",
+    "d": 76,
+    "width": 21,
+    "O": 294.2,
+    "E": 117.0,
+    "ratio": 2.52,
+    "score": 42.3
+   }
+  },
+  {
+   "motif": "AAGAAGTCCA",
+   "position": 90,
+   "fraction": 0.005,
+   "jitter": 15,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GACGTC",
+    "d": 56,
+    "width": 21,
+    "O": 151.1,
+    "E": 53.3,
+    "ratio": 2.83,
+    "score": 27.2
+   }
+  },
+  {
+   "motif": "CTCCACTTGA",
+   "position": 90,
+   "fraction": 0.005,
+   "jitter": 30,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "CACGTG",
+    "d": 52,
+    "width": 21,
+    "O": 197.8,
+    "E": 92.1,
+    "ratio": 2.15,
+    "score": 21.0
+   }
+  },
+  {
+   "motif": "GACCCAAGCC",
+   "position": 250,
+   "fraction": 0.0005,
+   "jitter": 0,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGTGTGGGAT",
+   "position": 250,
+   "fraction": 0.0005,
+   "jitter": 15,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AAGTTGATTG",
+   "position": 250,
+   "fraction": 0.0005,
+   "jitter": 30,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AGAAGGTAGG",
+   "position": 250,
+   "fraction": 0.001,
+   "jitter": 0,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GGGCACTTAG",
+   "position": 250,
+   "fraction": 0.001,
+   "jitter": 15,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CTTACTACCA",
+   "position": 250,
+   "fraction": 0.001,
+   "jitter": 30,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "ACAGTATACA",
+   "position": 250,
+   "fraction": 0.002,
+   "jitter": 0,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AGATAGGGGA",
+   "position": 250,
+   "fraction": 0.002,
+   "jitter": 15,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CTAATAGGGG",
+   "position": 250,
+   "fraction": 0.002,
+   "jitter": 30,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "ACCAGTCTGG",
+   "position": 250,
+   "fraction": 0.005,
+   "jitter": 0,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 7,
+    "kmer": "AGTCTGG",
+    "d": 247,
+    "width": 1,
+    "O": 29.5,
+    "E": 1.6,
+    "ratio": 18.41,
+    "score": 26.3
+   }
+  },
+  {
+   "motif": "TACCCTCACT",
+   "position": 250,
+   "fraction": 0.005,
+   "jitter": 15,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GGCAAGCAGG",
+   "position": 250,
+   "fraction": 0.005,
+   "jitter": 30,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "ACTTCAATGG",
+   "position": 700,
+   "fraction": 0.0005,
+   "jitter": 0,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CAACCAAATT",
+   "position": 700,
+   "fraction": 0.0005,
+   "jitter": 15,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "ATCAGGCACC",
+   "position": 700,
+   "fraction": 0.0005,
+   "jitter": 30,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AAGGCCAGTT",
+   "position": 700,
+   "fraction": 0.001,
+   "jitter": 0,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CTCACTCTTC",
+   "position": 700,
+   "fraction": 0.001,
+   "jitter": 15,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AATGGATGAG",
+   "position": 700,
+   "fraction": 0.001,
+   "jitter": 30,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGCACTTTAC",
+   "position": 700,
+   "fraction": 0.002,
+   "jitter": 0,
+   "n_planted": 56,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "TGCCCT",
+    "d": 698,
+    "width": 1,
+    "O": 37.6,
+    "E": 6.5,
+    "ratio": 5.82,
+    "score": 16.3
+   }
+  },
+  {
+   "motif": "GAGTTTTCCA",
+   "position": 700,
+   "fraction": 0.002,
+   "jitter": 15,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TACAACTAAG",
+   "position": 700,
+   "fraction": 0.002,
+   "jitter": 30,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGTGCCCTCA",
+   "position": 700,
+   "fraction": 0.005,
+   "jitter": 0,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 6,
+    "kmer": "GTGCCC",
+    "d": 699,
+    "width": 1,
+    "O": 40.3,
+    "E": 4.6,
+    "ratio": 8.74,
+    "score": 23.6
+   }
+  },
+  {
+   "motif": "AACCTATTTC",
+   "position": 700,
+   "fraction": 0.005,
+   "jitter": 15,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AATTGCCACT",
+   "position": 700,
+   "fraction": 0.005,
+   "jitter": 30,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGGCCTAGGG",
+   "position": 1500,
+   "fraction": 0.0005,
+   "jitter": 0,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TATAGACCTG",
+   "position": 1500,
+   "fraction": 0.0005,
+   "jitter": 15,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GTGACTGGCA",
+   "position": 1500,
+   "fraction": 0.0005,
+   "jitter": 30,
+   "n_planted": 14,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TTCCAAAACC",
+   "position": 1500,
+   "fraction": 0.001,
+   "jitter": 0,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AGTTGATCTA",
+   "position": 1500,
+   "fraction": 0.001,
+   "jitter": 15,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AGTGACAACT",
+   "position": 1500,
+   "fraction": 0.001,
+   "jitter": 30,
+   "n_planted": 28,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GCTGTGTCTT",
+   "position": 1500,
+   "fraction": 0.002,
+   "jitter": 0,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "AAATGGTGAT",
+   "position": 1500,
+   "fraction": 0.002,
+   "jitter": 15,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "TGAAGGGAGA",
+   "position": 1500,
+   "fraction": 0.002,
+   "jitter": 30,
+   "n_planted": 56,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "CCCTGGATAT",
+   "position": 1500,
+   "fraction": 0.005,
+   "jitter": 0,
+   "n_planted": 139,
+   "recovered": true,
+   "best_hit": {
+    "k": 8,
+    "kmer": "CTGGATAT",
+    "d": 1498,
+    "width": 1,
+    "O": 17.0,
+    "E": 0.3,
+    "ratio": 57.25,
+    "score": 23.7
+   }
+  },
+  {
+   "motif": "CAGAAACTGG",
+   "position": 1500,
+   "fraction": 0.005,
+   "jitter": 15,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  },
+  {
+   "motif": "GTGTAGAATT",
+   "position": 1500,
+   "fraction": 0.005,
+   "jitter": 30,
+   "n_planted": 139,
+   "recovered": false,
+   "best_hit": null
+  }
+ ],
+ "bench_settings": {
+  "fractions": [
+   0.0005,
+   0.001,
+   0.002,
+   0.005
+  ],
+  "jitters": [
+   0,
+   15,
+   30
+  ],
+  "fidelity": 0.75
+ },
+ "bench_hits": 1213,
+ "bench_unexplained_hits": 9,
+ "bench_unexplained_examples": [
+  {
+   "k": 7,
+   "kmer": "TGACGCG",
+   "d": 60,
+   "width": 21,
+   "O": 38.1,
+   "E": 11.2,
+   "ratio": 3.4,
+   "score": 9.6
+  },
+  {
+   "k": 8,
+   "kmer": "AGTGACGC",
+   "d": 25,
+   "width": 11,
+   "O": 14.5,
+   "E": 2.2,
+   "ratio": 6.55,
+   "score": 7.4
+  },
+  {
+   "k": 8,
+   "kmer": "CCGCCATC",
+   "d": 15,
+   "width": 21,
+   "O": 21.0,
+   "E": 4.8,
+   "ratio": 4.37,
+   "score": 7.4
+  },
+  {
+   "k": 8,
+   "kmer": "CCTTTAAG",
+   "d": 86,
+   "width": 21,
+   "O": 38.3,
+   "E": 13.8,
+   "ratio": 2.78,
+   "score": 7.4
+  },
+  {
+   "k": 8,
+   "kmer": "TTATATAA",
+   "d": 31,
+   "width": 5,
+   "O": 13.0,
+   "E": 1.7,
+   "ratio": 7.46,
+   "score": 7.4
+  },
+  {
+   "k": 8,
+   "kmer": "CCCGCCCT",
+   "d": 55,
+   "width": 21,
+   "O": 81.3,
+   "E": 42.0,
+   "ratio": 1.94,
+   "score": 7.3
+  },
+  {
+   "k": 8,
+   "kmer": "CCGCCCTC",
+   "d": 54,
+   "width": 21,
+   "O": 76.8,
+   "E": 38.8,
+   "ratio": 1.98,
+   "score": 7.3
+  },
+  {
+   "k": 8,
+   "kmer": "CCGTGACG",
+   "d": 63,
+   "width": 21,
+   "O": 21.3,
+   "E": 5.0,
+   "ratio": 4.25,
+   "score": 7.3
+  },
+  {
+   "k": 8,
+   "kmer": "GAATAGTA",
+   "d": 636,
+   "width": 21,
+   "O": 18.0,
+   "E": 3.6,
+   "ratio": 5.04,
+   "score": 7.3
+  }
+ ]
+}

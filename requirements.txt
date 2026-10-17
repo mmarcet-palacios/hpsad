@@ -1,0 +1,6 @@
+# Python 3.11 or later
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8      # diagnostic plots written by some scripts
+# optional, for the GPU word scan (--gpu in run_cohorts_parallel_v7.py, or HPSAD_GPU=1); results are identical to the CPU path
+# cupy-cuda13x[ctk]>=13
