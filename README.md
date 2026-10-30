@@ -72,3 +72,7 @@ The paper's runs used Windows 11, 24 CPU threads and an NVIDIA GPU (CuPy). The C
 Code: MIT (see `LICENSE`). Data tables: CC BY 4.0. Please cite the article and the archived release (`CITATION.cff`).
 
 Archive DOI: [10.5281/zenodo.23441932](https://doi.org/10.5281/zenodo.23441932) (includes the promoter sequence tables)
+
+## S1 Table
+
+data/s1_table/S1_Table.xlsx: every main-cohort promoter (12,084) with its sequence (-2000 to +100), every element match with position and GRCh38 coordinates, and UCSC Genome Browser links. Built by scripts/hpsad_s1_table_v7.py then scripts/make_s1_xlsx.py; the first script stops unless it reproduces data/profiles/architecture_calls_C1ev_v7.tsv exactly.
